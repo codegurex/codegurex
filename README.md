@@ -9,6 +9,9 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Cybersecurity+Analyst;Web+Developer;UI%2FUX+Focused+Developer)](https://codegurex.com)
 
 
+<br><br>
+
+
 
 <!-- Social Badges -->
 [![Portfolio](https://img.shields.io/badge/Portfolio-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://codegurex.com)
