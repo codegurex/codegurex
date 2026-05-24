@@ -11,11 +11,7 @@
 <br>
 
 <!-- Tagline -->
-<samp>
-  
-`Building secure digital experiences with clean code and modern design`
 
-</samp>
 
 <br>
 
