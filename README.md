@@ -1,8 +1,3 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:059669&height=200&section=header&text=&fontSize=0&animation=fadeIn" />
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:059669&height=200&section=header&text=&fontSize=0&animation=fadeIn" />
-</picture>
-
 <div align="center">
 
 <!-- Logo & Brand -->
