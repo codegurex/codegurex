@@ -4,16 +4,16 @@
 <img src="https://img.shields.io/badge/CODEGUREX-2563eb?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBvbHlsaW5lIHBvaW50cz0iMTYgMTggMjIgMTIgMTYgNiI+PC9wb2x5bGluZT48cG9seWxpbmUgcG9pbnRzPSI4IDYgMiAxMiA4IDE4Ij48L3BvbHlsaW5lPjwvc3ZnPg==&logoColor=white" height="40" />
 
 <br><br>
-<br><!-- Typing Animation -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Cybersecurity+Analyst;Web+Developer;UI%2FUX+Focused+Developer)](https://codegurex.com)<br>
-<br><br>
 
+<!-- Typing Animation -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Desarrollo+Web+y+Software+a+Medida;Plataformas+SaaS+y+CRM;Seguridad+en+cada+linea+de+codigo)](https://codegurex.com)
 
+<br>
 
 <!-- Social Badges -->
-[![Portfolio](https://img.shields.io/badge/Portfolio-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://codegurex.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-1a1a2e?style=for-the-badge&logo=linkedin&logoColor=2563eb)](https://linkedin.com/in/tu-usuario)
+[![Portfolio](https://img.shields.io/badge/Sitio_Web-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://codegurex.com)
 [![GitHub](https://img.shields.io/badge/GitHub-1a1a2e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/codegurex)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-1a1a2e?style=for-the-badge&logo=whatsapp&logoColor=059669)](https://wa.me/593963223403)
 [![Instagram](https://img.shields.io/badge/Instagram-1a1a2e?style=for-the-badge&logo=instagram&logoColor=059669)](https://instagram.com/codegurex)
 
 </div>
@@ -25,30 +25,31 @@
 
 <br>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="About" width="28" /> &nbsp;About Me
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="About" width="28" /> &nbsp;Sobre Codegurex
 
 <table>
 <tr>
 <td width="50%">
 
 ```yaml
-name: Codegurex
-located_in: Remote Worldwide
-current_focus: Cybersecurity & Web Development
-company: Freelancer / Future Tech Founder
-fields_of_interest:
-  - Ethical Hacking
-  - Web Development
-  - UI/UX Design
-  - Security Automation
-currently_learning:
-  - Advanced Penetration Testing
-  - Cloud Security Architecture
-  - AI-Powered Security Tools
-hobbies:
-  - Bug Bounty Hunting
-  - Building Side Projects
-  - Tech Research
+nombre: Codegurex
+tipo: Estudio de desarrollo de software
+ubicacion: Ecuador (trabajo remoto)
+enfoque:
+  - Desarrollo Web & E-commerce
+  - Software a Medida (SaaS / CRM)
+  - Ciberseguridad
+servicios_clave:
+  - Sitios corporativos y tiendas online
+  - Plataformas SaaS multi-tenant
+  - Sistemas CRM y dashboards con KPIs
+  - Desarrollo seguro y auditorias
+stack_principal:
+  - Next.js / React / TypeScript
+  - Node.js / Python
+  - Supabase / PostgreSQL
+  - Vercel
+filosofia: Seguridad incorporada desde la primera linea de codigo
 ```
 
 </td>
@@ -58,11 +59,11 @@ hobbies:
 
 <samp>
 
-Soy un profesional apasionado por la **ciberseguridad** y el **desarrollo web**. Mi enfoque único me permite crear aplicaciones seguras desde su concepción.
+En **Codegurex** construimos software web a la medida de cada negocio: sitios corporativos, tiendas online, plataformas **SaaS** y sistemas internos.
 
-Con experiencia en **Ethical Hacking** y pruebas de penetración, entiendo ambos lados: cómo construir sistemas robustos y cómo identificar y corregir debilidades.
+Nacimos desde la **ciberseguridad**, así que pensamos como los atacantes para anticipar vulnerabilidades y blindar cada proyecto. La seguridad no es un extra: viene incluida desde la primera línea de código.
 
-Mi objetivo es innovar mientras mantengo los más altos estándares de seguridad.
+Hemos trabajado para sectores como **salud, limpieza industrial, educación y retail** en Ecuador.
 
 </samp>
 
@@ -74,10 +75,10 @@ Mi objetivo es innovar mientras mantengo los más altos estándares de seguridad
 
 <!-- Stats Cards -->
 <div align="center">
-  
-| <img src="https://img.shields.io/badge/10+-2563eb?style=for-the-badge&logoColor=white" /> | <img src="https://img.shields.io/badge/50+-059669?style=for-the-badge&logoColor=white" /> | <img src="https://img.shields.io/badge/4+-8b5cf6?style=for-the-badge&logoColor=white" /> |
+
+| <img src="https://img.shields.io/badge/10+-2563eb?style=for-the-badge&logoColor=white" /> | <img src="https://img.shields.io/badge/5+-059669?style=for-the-badge&logoColor=white" /> | <img src="https://img.shields.io/badge/100%25-8b5cf6?style=for-the-badge&logoColor=white" /> |
 |:---:|:---:|:---:|
-| **Proyectos** | **CVs Resueltos** | **Certificaciones** |
+| **Proyectos entregados** | **Sectores atendidos** | **Enfoque en seguridad** |
 
 </div>
 
@@ -88,7 +89,7 @@ Mi objetivo es innovar mientras mantengo los más altos estándares de seguridad
 
 <br>
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28" /> &nbsp;Tech Stack
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28" /> &nbsp;Stack Tecnológico
 
 <div align="center">
 
@@ -108,10 +109,8 @@ Mi objetivo es innovar mientras mantengo los más altos estándares de seguridad
 
 ![Node.js](https://img.shields.io/badge/Node.js-1a1a2e?style=for-the-badge&logo=node.js&logoColor=339933)
 ![Python](https://img.shields.io/badge/Python-1a1a2e?style=for-the-badge&logo=python&logoColor=3776AB)
-![Express](https://img.shields.io/badge/Express-1a1a2e?style=for-the-badge&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-1a1a2e?style=for-the-badge&logo=fastapi&logoColor=009688)
 
-### `// Cybersecurity`
+### `// Ciberseguridad`
 
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-2563eb?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-2563eb?style=for-the-badge&logo=portswigger&logoColor=white)
@@ -120,16 +119,13 @@ Mi objetivo es innovar mientras mantengo los más altos estándares de seguridad
 ![OWASP](https://img.shields.io/badge/OWASP-2563eb?style=for-the-badge&logo=owasp&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-2563eb?style=for-the-badge&logo=gnometerminal&logoColor=white)
 
-### `// Databases & Cloud`
+### `// Bases de Datos & Cloud`
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1a1a2e?style=for-the-badge&logo=postgresql&logoColor=4169E1)
-![MongoDB](https://img.shields.io/badge/MongoDB-1a1a2e?style=for-the-badge&logo=mongodb&logoColor=47A248)
-![MySQL](https://img.shields.io/badge/MySQL-1a1a2e?style=for-the-badge&logo=mysql&logoColor=4479A1)
-![AWS](https://img.shields.io/badge/AWS-1a1a2e?style=for-the-badge&logo=amazon-aws&logoColor=FF9900)
+![Supabase](https://img.shields.io/badge/Supabase-1a1a2e?style=for-the-badge&logo=supabase&logoColor=3ECF8E)
 ![Vercel](https://img.shields.io/badge/Vercel-1a1a2e?style=for-the-badge&logo=vercel&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-1a1a2e?style=for-the-badge&logo=docker&logoColor=2496ED)
 
-### `// Tools & Design`
+### `// Herramientas & Diseño`
 
 ![Git](https://img.shields.io/badge/Git-1a1a2e?style=for-the-badge&logo=git&logoColor=F05032)
 ![VS Code](https://img.shields.io/badge/VS_Code-1a1a2e?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
@@ -173,7 +169,7 @@ Mi objetivo es innovar mientras mantengo los más altos estándares de seguridad
 
 <br>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" width="28" /> &nbsp;Featured Projects
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" width="28" /> &nbsp;Proyectos Destacados
 
 <div align="center">
 
@@ -183,76 +179,73 @@ Mi objetivo es innovar mientras mantengo los más altos estándares de seguridad
 <tr>
 <td width="50%">
 
-<h3 align="center">🛡️ Project Name 1</h3>
+<h3 align="center">📊 CostFlow</h3>
 
 <div align="center">
-  
-[![Project](https://img.shields.io/badge/View_Project-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/codegurex/project-1)
-[![Demo](https://img.shields.io/badge/Live_Demo-059669?style=for-the-badge&logo=vercel&logoColor=white)](https://project1.vercel.app)
 
-<samp>Brief description of your project. What problem does it solve? What technologies did you use?</samp>
+[![Repo](https://img.shields.io/badge/Ver_Repo-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/codegurex/costflow)
+[![Demo](https://img.shields.io/badge/Demo-059669?style=for-the-badge&logo=vercel&logoColor=white)](https://costflow-five.vercel.app)
+
+<samp>SaaS multi-tenant de compras, ventas e inventario para pequeños negocios. Dashboard con KPIs, cálculo automático de utilidad y datos aislados por negocio con Row Level Security.</samp>
 
 </div>
 
-![Tech](https://img.shields.io/badge/React-1a1a2e?style=flat-square&logo=react&logoColor=61DAFB)
+![Tech](https://img.shields.io/badge/Next.js-1a1a2e?style=flat-square&logo=next.js&logoColor=white)
 ![Tech](https://img.shields.io/badge/TypeScript-1a1a2e?style=flat-square&logo=typescript&logoColor=3178C6)
-![Tech](https://img.shields.io/badge/Node.js-1a1a2e?style=flat-square&logo=node.js&logoColor=339933)
+![Tech](https://img.shields.io/badge/Supabase-1a1a2e?style=flat-square&logo=supabase&logoColor=3ECF8E)
 
 </td>
 <td width="50%">
 
-<h3 align="center">🔐 Project Name 2</h3>
+<h3 align="center">🧴 Tahor Clean</h3>
 
 <div align="center">
-  
-[![Project](https://img.shields.io/badge/View_Project-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/codegurex/project-2)
-[![Demo](https://img.shields.io/badge/Live_Demo-059669?style=for-the-badge&logo=vercel&logoColor=white)](https://project2.vercel.app)
 
-<samp>Brief description of your project. What problem does it solve? What technologies did you use?</samp>
+[![Sitio](https://img.shields.io/badge/Ver_Sitio-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.tahor-clean.com/)
+
+<samp>Sitio corporativo de una marca ecuatoriana de químicos de limpieza con 10 años de trayectoria. Hero con video aéreo, red de 5 sucursales y optimización SEO.</samp>
 
 </div>
 
-![Tech](https://img.shields.io/badge/Python-1a1a2e?style=flat-square&logo=python&logoColor=3776AB)
-![Tech](https://img.shields.io/badge/FastAPI-1a1a2e?style=flat-square&logo=fastapi&logoColor=009688)
-![Tech](https://img.shields.io/badge/Docker-1a1a2e?style=flat-square&logo=docker&logoColor=2496ED)
+![Tech](https://img.shields.io/badge/Next.js-1a1a2e?style=flat-square&logo=next.js&logoColor=white)
+![Tech](https://img.shields.io/badge/Tailwind-1a1a2e?style=flat-square&logo=tailwind-css&logoColor=06B6D4)
+![Tech](https://img.shields.io/badge/Vercel-1a1a2e?style=flat-square&logo=vercel&logoColor=white)
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-<h3 align="center">💻 Project Name 3</h3>
+<h3 align="center">📈 Tahor Clean CRM</h3>
 
 <div align="center">
-  
-[![Project](https://img.shields.io/badge/View_Project-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/codegurex/project-3)
-[![Demo](https://img.shields.io/badge/Live_Demo-059669?style=for-the-badge&logo=vercel&logoColor=white)](https://project3.vercel.app)
 
-<samp>Brief description of your project. What problem does it solve? What technologies did you use?</samp>
+[![Demo](https://img.shields.io/badge/Ver_Demo-059669?style=for-the-badge&logo=vercel&logoColor=white)](https://tahor-clean-crm.vercel.app/)
+
+<samp>Sistema CRM interno con dashboard en tiempo real: KPIs de ventas, proyección contra metas, ranking de vendedores e importación/exportación a Excel. Optimizado como PWA móvil.</samp>
 
 </div>
 
-![Tech](https://img.shields.io/badge/Next.js-1a1a2e?style=flat-square&logo=next.js&logoColor=white)
-![Tech](https://img.shields.io/badge/Tailwind-1a1a2e?style=flat-square&logo=tailwind-css&logoColor=06B6D4)
-![Tech](https://img.shields.io/badge/Prisma-1a1a2e?style=flat-square&logo=prisma&logoColor=2D3748)
+![Tech](https://img.shields.io/badge/JavaScript-1a1a2e?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![Tech](https://img.shields.io/badge/PWA-1a1a2e?style=flat-square&logo=pwa&logoColor=5A0FC8)
+![Tech](https://img.shields.io/badge/Charts-1a1a2e?style=flat-square&logo=chartdotjs&logoColor=FF6384)
 
 </td>
 <td width="50%">
 
-<h3 align="center">🌐 Project Name 4</h3>
+<h3 align="center">🧠 PsicoQuiz</h3>
 
 <div align="center">
-  
-[![Project](https://img.shields.io/badge/View_Project-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/codegurex/project-4)
-[![Demo](https://img.shields.io/badge/Live_Demo-059669?style=for-the-badge&logo=vercel&logoColor=white)](https://project4.vercel.app)
 
-<samp>Brief description of your project. What problem does it solve? What technologies did you use?</samp>
+[![Demo](https://img.shields.io/badge/Ver_Demo-059669?style=for-the-badge&logo=vercel&logoColor=white)](https://v0-codegurex.vercel.app/)
+
+<samp>App educativa interactiva para estudiantes de Psicopatología. Gamifica el estudio con 5 modos de juego, ranking, flashcards y un panel admin que genera preguntas automáticamente.</samp>
 
 </div>
 
-![Tech](https://img.shields.io/badge/Vue.js-1a1a2e?style=flat-square&logo=vue.js&logoColor=4FC08D)
-![Tech](https://img.shields.io/badge/Nuxt-1a1a2e?style=flat-square&logo=nuxt.js&logoColor=00DC82)
-![Tech](https://img.shields.io/badge/Supabase-1a1a2e?style=flat-square&logo=supabase&logoColor=3ECF8E)
+![Tech](https://img.shields.io/badge/Next.js-1a1a2e?style=flat-square&logo=next.js&logoColor=white)
+![Tech](https://img.shields.io/badge/React-1a1a2e?style=flat-square&logo=react&logoColor=61DAFB)
+![Tech](https://img.shields.io/badge/Vercel-1a1a2e?style=flat-square&logo=vercel&logoColor=white)
 
 </td>
 </tr>
@@ -267,19 +260,19 @@ Mi objetivo es innovar mientras mantengo los más altos estándares de seguridad
 
 <br>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="28" /> &nbsp;Services
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="28" /> &nbsp;Servicios
 
 <div align="center">
 
 <br>
 
-| Service | Description |
+| Servicio | Descripción |
 |:-------:|:-----------:|
-| <img src="https://img.shields.io/badge/Web_Development-2563eb?style=for-the-badge&logo=code&logoColor=white" /> | Full-stack web applications with modern frameworks |
-| <img src="https://img.shields.io/badge/Cybersecurity-059669?style=for-the-badge&logo=hackaday&logoColor=white" /> | Penetration testing, security audits & vulnerability assessment |
-| <img src="https://img.shields.io/badge/UI%2FUX_Design-8b5cf6?style=for-the-badge&logo=figma&logoColor=white" /> | User-centered interfaces with modern design systems |
-| <img src="https://img.shields.io/badge/Security_Automation-1a1a2e?style=for-the-badge&logo=ansible&logoColor=white" /> | Custom security tools and automated scanning solutions |
-| <img src="https://img.shields.io/badge/Consulting-64748b?style=for-the-badge&logo=handshake&logoColor=white" /> | Technical guidance for startups and enterprises |
+| <img src="https://img.shields.io/badge/Desarrollo_Web-2563eb?style=for-the-badge&logo=html5&logoColor=white" /> | Sitios corporativos, e-commerce y landing pages con frameworks modernos |
+| <img src="https://img.shields.io/badge/Software_a_Medida-2563eb?style=for-the-badge&logo=next.js&logoColor=white" /> | Plataformas SaaS multi-tenant, sistemas CRM y dashboards con KPIs |
+| <img src="https://img.shields.io/badge/Ciberseguridad-059669?style=for-the-badge&logo=hackaday&logoColor=white" /> | Desarrollo seguro, auditorías y pruebas de penetración |
+| <img src="https://img.shields.io/badge/Automatizacion-8b5cf6?style=for-the-badge&logo=zapier&logoColor=white" /> | Integraciones (Excel, WhatsApp, pagos) y automatización de procesos |
+| <img src="https://img.shields.io/badge/Consultoria-64748b?style=for-the-badge&logo=googlemeet&logoColor=white" /> | Acompañamiento técnico para negocios que se digitalizan |
 
 </div>
 
@@ -290,7 +283,7 @@ Mi objetivo es innovar mientras mantengo los más altos estándares de seguridad
 
 <br>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Incoming%20Envelope.png" width="28" /> &nbsp;Contact
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Incoming%20Envelope.png" width="28" /> &nbsp;Contacto
 
 <div align="center">
 
@@ -298,21 +291,21 @@ Mi objetivo es innovar mientras mantengo los más altos estándares de seguridad
 
 <samp>
 
-**Open for opportunities and collaborations**
+**Disponible para nuevos proyectos y colaboraciones**
 
-Whether you need a security assessment, a modern web application, or technical consulting — let's connect.
+¿Necesitas un sitio web, una plataforma a medida o una auditoría de seguridad? Hablemos.
 
 </samp>
 
 <br>
 
-[![Email](https://img.shields.io/badge/Email-hii@codegurex.com-2563eb?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hii@codegurex.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Contact-059669?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/tunumero)
+[![Email](https://img.shields.io/badge/Email-contacto@codegurex.com-2563eb?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contacto@codegurex.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Escríbenos-059669?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/593963223403)
 
 <br>
 
 <a href="https://codegurex.com">
-  <img src="https://img.shields.io/badge/🌐_Visit_My_Portfolio-2563eb?style=for-the-badge&logoColor=white" height="35" />
+  <img src="https://img.shields.io/badge/🌐_Visita_Nuestro_Sitio-2563eb?style=for-the-badge&logoColor=white" height="35" />
 </a>
 
 </div>
@@ -328,15 +321,15 @@ Whether you need a security assessment, a modern web application, or technical c
 
 <samp>
 
-### `Thanks for visiting!`
+### `Gracias por visitarnos`
 
 <br>
 
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fcodegurex&label=Profile%20Views&labelColor=%231a1a2e&countColor=%232563eb)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fcodegurex&label=Visitas&labelColor=%231a1a2e&countColor=%232563eb)
 
 <br>
 
-**Building the future, one secure line of code at a time.**
+**Construyendo el futuro, una línea de código segura a la vez.**
 
 </samp>
 
@@ -352,10 +345,10 @@ Whether you need a security assessment, a modern web application, or technical c
 ---
 
 <div align="center">
-  
+
 <samp>
 
-`© 2024 Codegurex • All Rights Reserved`
+`© 2026 Codegurex • Todos los derechos reservados`
 
 </samp>
 
