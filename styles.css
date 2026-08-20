@@ -136,3 +136,70 @@ h3{color:#202923;letter-spacing:-.025em}
 .blue{background:#7c9183}
 
 @media(max-width:760px){.section{padding:88px 0}.hero{min-height:auto}.final-cta{padding:64px 0}.final-cta-box{border-radius:22px}.site-header{background:rgba(250,250,247,.96)}}
+
+/* Milk + sea brand direction */
+:root{--ink:#2d371d;--ink-2:#384428;--ink-3:#465331;--blue:#d2db76;--cyan:#e4eaa6;--green:#9eaa53;--paper:#f8f8f1;--text:#2d371d;--muted:#68705d;--line:#dfe2d2;--dark-line:rgba(45,55,29,.14);--shadow:0 24px 70px rgba(45,55,29,.09)}
+body{background:#f8f8f1;color:#2d371d}
+::selection{background:#d2db76;color:#2d371d}
+h1,h2{font-family:"Arial Narrow","Helvetica Neue Condensed",Impact,sans-serif;font-weight:800;letter-spacing:-.035em}
+.hero h1 span,h2 span{font-family:"Iowan Old Style","Palatino Linotype",Georgia,serif;font-style:italic;font-weight:700;color:#2d371d}
+.site-header{background:rgba(248,248,241,.93);border-color:rgba(45,55,29,.11)}
+.brand-symbol{border-color:#bac45e;background:#d2db76;color:#2d371d}.brand-symbol span{color:#2d371d}
+.button-primary{background:#2d371d;color:#fff;box-shadow:0 10px 24px rgba(45,55,29,.18)}
+.button-primary:hover{background:#414d2c;box-shadow:0 14px 30px rgba(45,55,29,.2)}
+.hero{background:radial-gradient(circle at 82% 17%,rgba(210,219,118,.62),transparent 32%),linear-gradient(180deg,#fbfbf6 0%,#f3f4e8 100%);color:#2d371d}
+.hero-grid{background-image:linear-gradient(rgba(45,55,29,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(45,55,29,.05) 1px,transparent 1px)}
+.hero h1{color:#2d371d;font-family:"Arial Narrow","Helvetica Neue Condensed",Impact,sans-serif;font-weight:800;letter-spacing:-.04em}
+.hero h1 span{color:#2d371d}
+.hero-pillars b,.section-kicker,.text-link{color:#65702f}
+.status-dot{background:#9eaa53;box-shadow:0 0 0 5px rgba(158,170,83,.13)}
+.audit-preview{border-color:#d8ddbb;background:rgba(255,255,250,.9);box-shadow:0 28px 80px rgba(45,55,29,.1)}
+.score-ring{background:conic-gradient(#2d371d 0 72%,#eaecdf 72% 100%)}
+.score-78{background:linear-gradient(90deg,#2d371d 0 78%,#e7e9dc 78%)}.score-64{background:linear-gradient(90deg,#aeba5d 0 64%,#e7e9dc 64%)}.score-71{background:linear-gradient(90deg,#78833c 0 71%,#e7e9dc 71%)}
+.signal-strip{background:#d2db76;border-color:#bdc662;color:#2d371d}.signal-list span{border-color:rgba(45,55,29,.16)}
+
+/* Milk + sea full system */
+.section-kicker{color:#66712f;font-family:Arial,Helvetica,sans-serif;font-weight:800}
+.big-copy{color:#59614f}
+.desktop-nav a{color:#5f6755}.desktop-nav a:hover{color:#2d371d}
+.brand-copy strong{color:#2d371d}.brand-copy small{color:#737a67}
+.button-secondary{border-color:#cfd3bd;background:#fbfbf5;color:#2d371d}
+.button-light{background:#d2db76;color:#2d371d}.button-ghost{border-color:rgba(210,219,118,.55);color:#f8f8f1}
+.hero-lead{color:#656d5c}.hero-pillars span{border-color:#d8dcc7;background:rgba(255,255,248,.78);color:#4f5747}.hero .button-secondary{border-color:#cbd0b9;background:#fffffa;color:#2d371d}.hero-note{color:#7e8573}
+.audit-preview .audit-live{color:#66712f}.audit-domain strong,.audit-scores b{color:#2d371d}
+.audit-alert{border-color:#e0d5a9;background:#faf6dd}.audit-alert>span{background:#ebe0ad;color:#5c5527}.audit-alert b{color:#2d371d}
+
+.problem-card{border-color:#e0e2d2;background:#fbfbf5}.problem-card:hover{box-shadow:0 20px 50px rgba(45,55,29,.09)}
+.audit-section{background:#fff;color:#2d371d;border-color:#e3e5d8}.audit-copy h2,.audit-areas h3{color:#2d371d}.audit-copy p:not(.section-kicker),.audit-copy .big-copy,.audit-areas p{color:#68705f}
+.audit-areas{border-color:#dde0cd}.audit-areas article{border-color:#dde0cd;background:#f7f8ef}.audit-areas article>span{color:#68742f}
+.report-section{background:#f0f2df}.report-board{border-color:#d8ddbc}.report-header{background:#2d371d;color:#f8f8f1}.report-header small{color:#d2db76}.opportunity{background:#edf1c4;color:#4f5a24}.check-list li:before,.service-card li:before,.plan-card li:before{color:#707b31}
+
+.service-card,.plan-card{border-color:#dfe2cf;background:#fbfbf5}.service-card:hover,.plan-card:hover{border-color:#c5ca9d;box-shadow:0 20px 50px rgba(45,55,29,.08)}
+.service-top b{color:#68732f}.featured-service{border-color:#bcc65d;background:#d2db76;color:#2d371d}.featured-service p,.featured-service small{color:#525a3f}.featured-service li{border-color:rgba(45,55,29,.16)}
+.ai-section{background:#2d371d;color:#f8f8f1;border-color:#2d371d}.ai-section h2{color:#f8f8f1}.ai-section h2 span{color:#d2db76}.ai-section p:not(.section-kicker),.ai-section .big-copy{color:#d6dcc9}.ai-section .section-kicker{color:#d2db76}
+.ai-orbit{border-color:rgba(210,219,118,.32);background:radial-gradient(circle,rgba(210,219,118,.15),transparent 62%)}.ai-orbit:before,.ai-orbit:after{border-color:rgba(210,219,118,.25)}
+.orbit-center{border-color:#d2db76;background:#d2db76;color:#2d371d}.orbit-node{border-color:rgba(210,219,118,.38);background:#384428;color:#e6eab9;box-shadow:none}
+.honesty-note{border-color:#d2db76;background:rgba(210,219,118,.09)}.honesty-note strong{color:#e8ecc4}.honesty-note span{color:#c8cebb}
+
+.plans-section,.development-section{background:#f2f3e7}.primary-plan{border-color:#bfc867;background:#edf0c9}.development-box{border-color:#2d371d;background:#2d371d;color:#f8f8f1;box-shadow:0 22px 60px rgba(45,55,29,.14)}
+.development-box h2{color:#f8f8f1}.development-box h2 span{color:#d2db76}.development-box>div>p:not(.section-kicker){color:#cbd1bd}.development-box .section-kicker{color:#d2db76}
+.tech-tags span{border-color:rgba(210,219,118,.28);background:rgba(210,219,118,.07);color:#e1e6b2}.implementation-flow{border-color:rgba(210,219,118,.2)}.implementation-flow span{color:#d2db76}.implementation-flow small{color:#f2f4e8}.implementation-flow i{color:#7e885f}
+
+.case-card{border-color:#dfe2d2;background:#fbfbf5}.case-type{color:#67732f}.case-meta span{border-color:#dde1c9;background:#f7f8ef;color:#646d58}.lab-row>div,.lab-row article{border-color:#dfe2d2;background:#fbfbf5}
+.why-section{background:#d2db76;color:#2d371d;border-color:#bec75f}.why-copy h2,.difference-grid h3{color:#2d371d}.why-copy p:not(.section-kicker),.why-copy .big-copy,.difference-grid p{color:#545d42}.why-copy .section-kicker{color:#566120}
+.founder-note{border-color:rgba(45,55,29,.22)}.founder-note>span{border-color:#2d371d;background:#2d371d;color:#d2db76}.founder-note strong{color:#2d371d}.founder-note small{color:#596142}
+.difference-grid,.difference-grid article{border-color:rgba(45,55,29,.2)}.difference-grid article{background:rgba(255,255,245,.2)}.difference-grid span{color:#596320}
+
+.process-list li,.credential-columns article,.contact-form{border-color:#dfe2d2;background:#fbfbf5}.process-list>li>span,.credential-columns li span{color:#68732f}
+.faq-section{background:#f0f2df}.faq-list,.faq-list details{border-color:#d5d9bd}.faq-list summary span{color:#6b752f}
+.final-cta-box{border-color:#b9c254;background:radial-gradient(circle at 50% 115%,rgba(45,55,29,.1),transparent 48%),#d2db76;color:#2d371d}.final-cta-box h2{color:#2d371d}.final-cta-box>p:not(.section-kicker){color:#535b41}.final-cta-box .section-kicker{color:#596320}
+.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{border-color:#9da64f;box-shadow:0 0 0 3px rgba(210,219,118,.25)}
+
+.site-footer{background:#2d371d;color:#f4f5e9;border-color:#2d371d}.site-footer .brand-copy strong{color:#f8f8f1}.site-footer .brand-copy small{color:#b7bea5}.site-footer .brand-symbol{border-color:#d2db76;background:#d2db76;color:#2d371d}.site-footer .brand-symbol span{color:#2d371d}
+.footer-grid p{color:#b7bea7}.footer-grid nav a,.footer-contact>a{color:#e8ebdd}.footer-grid nav a:hover,.footer-contact>a:hover{color:#d2db76}.footer-bottom{border-color:rgba(210,219,118,.2);color:#aeb69a}
+.social-block{display:grid;gap:12px;margin-top:12px}.social-label{color:#d2db76;font:800 9px/1 Arial,Helvetica,sans-serif;letter-spacing:.14em}.social-links{display:flex;flex-wrap:wrap;gap:9px}
+.social-link{display:grid;width:42px;height:42px;place-items:center;border:1px solid rgba(210,219,118,.38);border-radius:50%;background:#d2db76;transition:transform .2s,background .2s}.social-link img{width:18px;height:18px}.social-link[href]:hover{transform:translateY(-3px);background:#e4eaa6}.social-link-pending{opacity:.48;cursor:default}.social-block small{color:#8f987d;font-size:.7rem;line-height:1.45}
+.whatsapp-float{border-color:#2d371d;background:#d2db76;box-shadow:0 12px 28px rgba(45,55,29,.24)}.whatsapp-float img{width:23px;height:23px}
+.blue{background:#7f893d}
+
+@media(max-width:760px){h1,h2{letter-spacing:-.025em}.social-links{gap:8px}.social-link{width:40px;height:40px}}
