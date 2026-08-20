@@ -1,0 +1,10 @@
+{
+  "name": "CodeGurex",
+  "short_name": "CodeGurex",
+  "description": "SEO técnico, seguridad web y rendimiento.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07101f",
+  "theme_color": "#07101f",
+  "icons": [{"src":"/og.png","sizes":"1200x630","type":"image/png","purpose":"any"}]
+}
