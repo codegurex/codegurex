@@ -24,9 +24,12 @@ for (const page of pages) {
   for (const match of html.matchAll(/<a[^>]*target="_blank"[^>]*>/g)) {
     if (!/rel="[^"]*noopener[^"]*"/.test(match[0])) failures.push(`${page}: unsafe external link: ${match[0]}`);
   }
-  if (!/src="\/?analytics\.js\?v=1"/.test(html)) failures.push(`${page}: local analytics bootstrap missing`);
-  if (!/googletagmanager\.com\/gtag\/js\?id=G-3NH66XEY32/.test(html)) {
-    failures.push(`${page}: Google Analytics measurement tag missing`);
+  const analyticsBootstraps = [...html.matchAll(/src="\/?analytics\.js\?v=1"/g)].length;
+  const googleTags = [...html.matchAll(/googletagmanager\.com\/gtag\/js\?id=G-3NH66XEY32/g)].length;
+  if (analyticsBootstraps !== 1) failures.push(`${page}: expected exactly one local analytics bootstrap`);
+  if (googleTags !== 1) failures.push(`${page}: expected exactly one Google Analytics measurement tag`);
+  if (!/<head>\s*<!-- Google tag \(gtag\.js\) -->\s*<script src="\/?analytics\.js\?v=1"><\/script>\s*<script async src="https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=G-3NH66XEY32"><\/script>/.test(html)) {
+    failures.push(`${page}: Google tag must appear immediately after <head>`);
   }
   if (!/styles\.css\?v=12/.test(html)) failures.push(`${page}: current consent styles are not loaded`);
   if (page !== 'privacidad.html') {
