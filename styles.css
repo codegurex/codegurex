@@ -260,3 +260,8 @@ body{background:#f7f7ff;color:#27187d}
 .blue{background:#786db9}
 
 @media(max-width:760px){.site-header{background:rgba(247,247,255,.97)}}
+
+/* Shared brand icon for the browser tab, header and footer */
+.brand-symbol{border:0;background:transparent;overflow:hidden}
+.brand-symbol img{width:100%;height:100%;object-fit:cover;border-radius:9px}
+.site-footer .brand-symbol{border:0;background:transparent}
