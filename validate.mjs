@@ -24,6 +24,12 @@ for (const page of pages) {
   for (const match of html.matchAll(/<a[^>]*target="_blank"[^>]*>/g)) {
     if (!/rel="[^"]*noopener[^"]*"/.test(match[0])) failures.push(`${page}: unsafe external link: ${match[0]}`);
   }
+  if (page !== 'privacidad.html') {
+    if (!/id="menuButton"/.test(html)) failures.push(`${page}: menu button is not wired`);
+    if (!/<nav class="mobile-menu" id="mobileMenu"[^>]*\shidden/.test(html)) {
+      failures.push(`${page}: mobile menu must start hidden`);
+    }
+  }
 }
 if (failures.length) {
   console.error(failures.join('\n'));
