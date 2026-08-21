@@ -263,5 +263,7 @@ body{background:#f7f7ff;color:#27187d}
 
 /* Shared brand icon for the browser tab, header and footer */
 .brand-symbol{border:0;background:transparent;overflow:hidden}
-.brand-symbol img{width:100%;height:100%;object-fit:cover;border-radius:9px}
+.brand-symbol,.brand-symbol img{border-radius:50%}
+.brand-symbol img{width:100%;height:100%;object-fit:cover}
 .site-footer .brand-symbol{border:0;background:transparent}
+.mobile-menu .button-primary{color:#fff}
