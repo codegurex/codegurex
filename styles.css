@@ -203,3 +203,60 @@ h1,h2{font-family:"Arial Narrow","Helvetica Neue Condensed",Impact,sans-serif;fo
 .blue{background:#7f893d}
 
 @media(max-width:760px){h1,h2{letter-spacing:-.025em}.social-links{gap:8px}.social-link{width:40px;height:40px}}
+
+/* Reference palette sampled from the supplied image: #F7F7FF + #27187D */
+:root{--ink:#27187d;--ink-2:#30208a;--ink-3:#3b2a95;--blue:#27187d;--cyan:#8b82c9;--green:#5c50ad;--paper:#f7f7ff;--text:#27187d;--muted:#69658a;--line:#dedcf0;--dark-line:rgba(39,24,125,.15);--shadow:0 24px 70px rgba(39,24,125,.1)}
+body{background:#f7f7ff;color:#27187d}
+::selection{background:#27187d;color:#f7f7ff}
+.site-header{background:rgba(247,247,255,.94);border-color:rgba(39,24,125,.11)}
+.brand-symbol{border-color:#27187d;background:#27187d;color:#f7f7ff}.brand-symbol span{color:#f7f7ff}.brand-copy strong{color:#27187d}.brand-copy small{color:#78739d}
+.desktop-nav a{color:#6a668d}.desktop-nav a:hover{color:#27187d}
+.button-primary{background:#27187d;color:#fff;box-shadow:0 10px 24px rgba(39,24,125,.2)}.button-primary:hover{background:#35258f;box-shadow:0 14px 30px rgba(39,24,125,.24)}
+.hero{background:radial-gradient(circle at 82% 17%,rgba(39,24,125,.13),transparent 32%),linear-gradient(180deg,#fff 0%,#f7f7ff 100%);color:#27187d}
+.hero-grid{background-image:linear-gradient(rgba(39,24,125,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(39,24,125,.045) 1px,transparent 1px)}
+.hero h1,.hero h1 span{color:#27187d}.hero-lead{color:#676388}.hero-pillars span{border-color:#d8d5ed;background:rgba(255,255,255,.8);color:#565177}.hero-pillars b,.section-kicker,.text-link{color:#27187d}.status-dot{background:#5b4ead;box-shadow:0 0 0 5px rgba(39,24,125,.09)}
+.hero .button-secondary{border-color:#d0cde9;background:#fff;color:#27187d}.hero-note{color:#817ca2}
+.audit-preview{border-color:#d8d5ed;background:rgba(255,255,255,.92);box-shadow:0 28px 80px rgba(39,24,125,.11)}
+.score-ring{background:conic-gradient(#27187d 0 72%,#ecebf6 72% 100%)}.score-78{background:linear-gradient(90deg,#27187d 0 78%,#e8e7f3 78%)}.score-64{background:linear-gradient(90deg,#6559ae 0 64%,#e8e7f3 64%)}.score-71{background:linear-gradient(90deg,#8a82c7 0 71%,#e8e7f3 71%)}
+.signal-strip{background:#27187d;border-color:#27187d;color:#f7f7ff}.signal-list span{border-color:rgba(247,247,255,.18)}
+
+/* Reference palette: complete visual system */
+.section-kicker,.text-link,.case-type,.service-top b,.process-list>li>span,.credential-columns li span{color:#27187d}
+.big-copy{color:#5f5a81}.button-secondary{border-color:#d2cfe9;background:#fff;color:#27187d}.button-light{background:#f7f7ff;color:#27187d}.button-ghost{border-color:rgba(247,247,255,.42);color:#fff}
+.audit-preview .audit-live{color:#5547a4}.audit-domain strong,.audit-scores b{color:#27187d}.audit-alert{border-color:#dcd8f0;background:#f2f0fb}.audit-alert>span{background:#dedaf2;color:#27187d}.audit-alert b{color:#27187d}
+
+.problem-card{border-color:#e1dff0;background:#fff}.problem-card:hover{box-shadow:0 20px 50px rgba(39,24,125,.1)}
+.audit-section{background:#fff;color:#27187d;border-color:#e3e1f1}.audit-copy h2,.audit-areas h3{color:#27187d}.audit-copy p:not(.section-kicker),.audit-copy .big-copy,.audit-areas p{color:#69658a}.audit-copy .text-link{color:#27187d}
+.audit-areas{border-color:#dfdced}.audit-areas article{border-color:#dfdced;background:#f7f7ff}.audit-areas article>span{color:#5b4ea9}
+.report-section{background:#efeff9}.report-board{border-color:#d6d3e9}.report-header{background:#27187d;color:#f7f7ff}.report-header small{color:#c9c4ec}.opportunity{background:#e5e2f6;color:#27187d}.check-list li:before,.service-card li:before,.plan-card li:before{color:#27187d}
+
+.pillars-section,.cases-section,.credentials-section{background:#fff}
+.service-card,.plan-card{border-color:#dfdced;background:#fafaff}.service-card:hover,.plan-card:hover{border-color:#bdb7dd;box-shadow:0 20px 50px rgba(39,24,125,.09)}
+.featured-service{border-color:#c5c0e4;background:#e8e6f7;color:#27187d}.featured-service p,.featured-service small{color:#5c577d}.featured-service li{border-color:rgba(39,24,125,.14)}
+.ai-section{background:#27187d;color:#f7f7ff;border-color:#27187d}.ai-section h2{color:#f7f7ff}.ai-section h2 span{color:#f7f7ff}.ai-section p:not(.section-kicker),.ai-section .big-copy{color:#d3cfee}.ai-section .section-kicker{color:#d8d4f2}
+.ai-orbit{border-color:rgba(247,247,255,.27);background:radial-gradient(circle,rgba(247,247,255,.12),transparent 62%)}.ai-orbit:before,.ai-orbit:after{border-color:rgba(247,247,255,.22)}
+.orbit-center{border-color:#f7f7ff;background:#f7f7ff;color:#27187d}.orbit-node{border-color:rgba(247,247,255,.34);background:#35258f;color:#f7f7ff;box-shadow:none}
+.honesty-note{border-color:#f7f7ff;background:rgba(247,247,255,.08)}.honesty-note strong{color:#fff}.honesty-note span{color:#d1cdea}
+
+.plans-section,.development-section{background:#f1f0fa}.primary-plan{border-color:#aaa3d4;background:#e9e7f7}.development-box{border-color:#27187d;background:#27187d;color:#f7f7ff;box-shadow:0 22px 60px rgba(39,24,125,.16)}
+.development-box h2,.development-box h2 span{color:#f7f7ff}.development-box>div>p:not(.section-kicker){color:#d2ceeb}.development-box .section-kicker{color:#d8d4f2}
+.tech-tags span{border-color:rgba(247,247,255,.25);background:rgba(247,247,255,.07);color:#f0effa}.implementation-flow{border-color:rgba(247,247,255,.2)}.implementation-flow span{color:#d9d5f3}.implementation-flow small{color:#f7f7ff}.implementation-flow i{color:#a9a2d2}
+
+.case-card{border-color:#dfddec;background:#fff}.case-card:hover{box-shadow:0 20px 50px rgba(39,24,125,.09)}.case-meta span{border-color:#dfdced;background:#f7f7ff;color:#676287}.lab-row>div,.lab-row article{border-color:#dfddec;background:#fafaff}
+.why-section{background:#e7e5f5;color:#27187d;border-color:#d1cde9}.why-copy h2,.difference-grid h3{color:#27187d}.why-copy p:not(.section-kicker),.why-copy .big-copy,.difference-grid p{color:#5f5a80}.why-copy .section-kicker{color:#27187d}
+.founder-note{border-color:rgba(39,24,125,.2)}.founder-note>span{border-color:#27187d;background:#27187d;color:#f7f7ff}.founder-note strong{color:#27187d}.founder-note small{color:#625d82}
+.difference-grid,.difference-grid article{border-color:rgba(39,24,125,.17)}.difference-grid article{background:rgba(255,255,255,.3)}.difference-grid span{color:#5549a1}
+
+.process-section{background:#fff}.process-list{border-color:#dedbec}.process-list li{border-color:#dedbec;background:#fafaff}.process-list p{color:#6b6689}
+.credential-columns article{border-color:#dfdced;background:#fafaff}.credential-columns li{border-color:#e5e3f1}.credential-columns li small{color:#777294}
+.faq-section{background:#f0eff9}.faq-list,.faq-list details{border-color:#d8d5e9}.faq-list summary span{color:#27187d}
+.final-cta{background:#fff}.final-cta-box{border-color:#27187d;background:#27187d;color:#f7f7ff;box-shadow:0 24px 70px rgba(39,24,125,.16)}.final-cta-box h2,.final-cta-box h2 span{color:#f7f7ff}.final-cta-box>p:not(.section-kicker){color:#d3cfee}.final-cta-box .section-kicker{color:#d9d5f3}
+.contact-form{border-color:#dedbec;background:#fafaff}.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{border-color:#7165b5;box-shadow:0 0 0 3px rgba(39,24,125,.12)}
+
+.site-footer{background:#27187d;color:#f7f7ff;border-color:#27187d}.site-footer .brand-copy strong{color:#f7f7ff}.site-footer .brand-copy small{color:#bcb6df}.site-footer .brand-symbol{border-color:#f7f7ff;background:#f7f7ff;color:#27187d}.site-footer .brand-symbol span{color:#27187d}
+.footer-grid p{color:#c3bee3}.footer-grid nav a,.footer-contact>a{color:#f0effa}.footer-grid nav a:hover,.footer-contact>a:hover{color:#fff}.footer-bottom{border-color:rgba(247,247,255,.2);color:#bcb7dd}
+.social-label{color:#f7f7ff}.social-link{border-color:rgba(247,247,255,.42);background:#f7f7ff}.social-link[href]:hover{background:#e5e2f6}.social-block small{color:#aaa4d0}
+.whatsapp-float{border-color:#27187d;background:#27187d;box-shadow:0 12px 28px rgba(39,24,125,.28)}.whatsapp-float img{filter:invert(1)}
+.blue{background:#786db9}
+
+@media(max-width:760px){.site-header{background:rgba(247,247,255,.97)}}
