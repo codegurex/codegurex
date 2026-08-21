@@ -4,7 +4,7 @@ import { dirname, resolve } from 'node:path';
 const root = dirname(new URL(import.meta.url).pathname.replace(/^\/(?:[A-Za-z]:)/, (value) => value.slice(1)));
 const failures = [];
 let checkedIds = 0;
-const pages = ['index.html', 'privacidad.html', 'auditoria-web.html', 'seo-tecnico.html', 'rendimiento-web.html', 'seguridad-web.html'];
+const pages = ['index.html', 'privacidad.html', 'auditoria-web.html', 'seo-tecnico.html', 'rendimiento-web.html', 'seguridad-web.html', 'caso-codegurex.html'];
 for (const page of pages) {
   const html = await readFile(resolve(root, page), 'utf8');
   const ids = [...html.matchAll(/\sid="([^"]+)"/g)].map((match) => match[1]);
