@@ -4,7 +4,7 @@
   "description": "SEO técnico, seguridad web y rendimiento.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f8f8f1",
-  "theme_color": "#2d371d",
-  "icons": [{"src":"/og-milk-sea.png","sizes":"1200x630","type":"image/png","purpose":"any"}]
+  "background_color": "#f7f7ff",
+  "theme_color": "#27187d",
+  "icons": [{"src":"/og-violet-reference.png","sizes":"1200x630","type":"image/png","purpose":"any"}]
 }
