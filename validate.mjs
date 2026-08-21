@@ -24,7 +24,13 @@ for (const page of pages) {
   for (const match of html.matchAll(/<a[^>]*target="_blank"[^>]*>/g)) {
     if (!/rel="[^"]*noopener[^"]*"/.test(match[0])) failures.push(`${page}: unsafe external link: ${match[0]}`);
   }
+  if (!/src="\/?analytics\.js\?v=1"/.test(html)) failures.push(`${page}: local analytics bootstrap missing`);
+  if (!/googletagmanager\.com\/gtag\/js\?id=G-3NH66XEY32/.test(html)) {
+    failures.push(`${page}: Google Analytics measurement tag missing`);
+  }
+  if (!/styles\.css\?v=12/.test(html)) failures.push(`${page}: current consent styles are not loaded`);
   if (page !== 'privacidad.html') {
+    if (!/script\.js\?v=3/.test(html)) failures.push(`${page}: current interaction script is not loaded`);
     if (!/id="menuButton"/.test(html)) failures.push(`${page}: menu button is not wired`);
     if (!/<nav class="mobile-menu" id="mobileMenu"[^>]*\shidden/.test(html)) {
       failures.push(`${page}: mobile menu must start hidden`);
