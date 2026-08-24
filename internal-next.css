@@ -369,6 +369,17 @@ body.privacy-page {
   color: var(--ip-muted);
 }
 
+.site-footer .footer-grid nav a,
+.site-footer .footer-contact > a {
+  color: #46566d;
+  opacity: 1;
+}
+
+.site-footer .footer-grid nav a:hover,
+.site-footer .footer-contact > a:hover {
+  color: var(--ip-blue-deep);
+}
+
 .site-footer a:hover,
 .footer-bottom a:hover {
   color: var(--ip-blue-deep);
@@ -385,6 +396,16 @@ body.privacy-page {
 
 .social-link img {
   filter: none;
+}
+
+body .whatsapp-float {
+  border-color: #25d366;
+  background: #25d366;
+  box-shadow: 0 12px 30px rgba(37, 211, 102, 0.28);
+}
+
+body .whatsapp-float img {
+  filter: brightness(0) invert(1);
 }
 
 .footer-bottom {

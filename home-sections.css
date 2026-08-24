@@ -1361,6 +1361,16 @@
   color: var(--cg-ink);
 }
 
+.home-ai-era .whatsapp-float {
+  border-color: #25d366;
+  background: #25d366;
+  box-shadow: 0 12px 30px rgba(37, 211, 102, 0.28);
+}
+
+.home-ai-era .whatsapp-float img {
+  filter: brightness(0) invert(1);
+}
+
 /* Contact dialog */
 .cg-contact-dialog {
   width: min(980px, calc(100% - 32px));
