@@ -1268,7 +1268,7 @@
   color: var(--cg-ink);
 }
 .cg-footer .cg-wordmark > span {
-  border-color: #59677d;
+  border: 0;
 }
 .cg-footer-brand > p {
   margin: 20px 0 28px;

@@ -69,25 +69,20 @@
 }
 
 .cg-wordmark > span {
-  position: relative;
-  width: 19px;
-  height: 19px;
-  border: 1px solid var(--cg-ink);
-  border-radius: 5px;
+  display: inline-grid;
+  width: 26px;
+  height: 26px;
+  flex: 0 0 26px;
+  place-items: center;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
-.cg-wordmark > span::before,
-.cg-wordmark > span::after {
-  position: absolute;
-  content: "";
-  background: var(--cg-blue);
-}
-
-.cg-wordmark > span::before {
-  inset: 4px 8px;
-}
-.cg-wordmark > span::after {
-  inset: 8px 4px;
+.cg-wordmark > span img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .home-ai-era .cg-desktop-nav {
