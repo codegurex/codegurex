@@ -1,11 +1,11 @@
 {
   "name": "CodeGurex",
   "short_name": "CodeGurex",
-  "description": "SEO técnico, seguridad web y rendimiento.",
+  "description": "Security for the AI Era. AI Security, cybersecurity and secure infrastructure.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f7f7ff",
-  "theme_color": "#27187d",
+  "background_color": "#f6f7f9",
+  "theme_color": "#2457ff",
   "icons": [
     {"src":"/favicon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
     {"src":"/favicon.ico","sizes":"48x48","type":"image/x-icon","purpose":"any"}

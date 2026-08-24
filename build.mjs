@@ -1,11 +1,44 @@
-import { cp, copyFile, mkdir, rm } from 'node:fs/promises';
+import { cp, copyFile, mkdir, rm } from "node:fs/promises";
 
-const output = new URL('./dist/', import.meta.url);
+const output = new URL("./dist/", import.meta.url);
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
 
-for (const file of ['index.html', 'privacidad.html', 'auditoria-web.html', 'seo-tecnico.html', 'rendimiento-web.html', 'seguridad-web.html', 'caso-codegurex.html', 'styles.css', 'script.js', 'analytics.js', 'robots.txt', 'sitemap.xml', 'site.webmanifest', '_headers', 'favicon.ico', 'favicon-512.png', 'og.png', 'og-light.png', 'og-milk-sea.png', 'og-violet-reference.png', 'CNAME', '.nojekyll']) {
-  await copyFile(new URL(`./${file}`, import.meta.url), new URL(`./dist/${file}`, import.meta.url));
+for (const file of [
+  "index.html",
+  "privacidad.html",
+  "auditoria-web.html",
+  "seo-tecnico.html",
+  "rendimiento-web.html",
+  "seguridad-web.html",
+  "caso-codegurex.html",
+  "styles.css",
+  "home-next.css",
+  "home-sections.css",
+  "home-next.js",
+  "script.js",
+  "analytics.js",
+  "robots.txt",
+  "sitemap.xml",
+  "site.webmanifest",
+  "_headers",
+  "favicon.ico",
+  "favicon-512.png",
+  "og.png",
+  "og-light.png",
+  "og-milk-sea.png",
+  "og-violet-reference.png",
+  "CNAME",
+  ".nojekyll",
+]) {
+  await copyFile(
+    new URL(`./${file}`, import.meta.url),
+    new URL(`./dist/${file}`, import.meta.url),
+  );
 }
-await cp(new URL('./img/', import.meta.url), new URL('./dist/img/', import.meta.url), { recursive: true });
-console.log('Build completed: dist/');
+await cp(
+  new URL("./img/", import.meta.url),
+  new URL("./dist/img/", import.meta.url),
+  { recursive: true },
+);
+console.log("Build completed: dist/");
