@@ -16,6 +16,7 @@ for (const file of [
   "home-next.css",
   "home-sections.css",
   "home-next.js",
+  "internal-next.css",
   "script.js",
   "analytics.js",
   "robots.txt",

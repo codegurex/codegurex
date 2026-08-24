@@ -96,6 +96,8 @@ for (const page of pages) {
       failures.push(`${page}: complete Home stylesheet is not loaded`);
     if (!/home-next\.js\?v=\d+/.test(html))
       failures.push(`${page}: AI Era interaction script is not loaded`);
+  } else if (!/internal-next\.css\?v=\d+/.test(html)) {
+    failures.push(`${page}: current internal-page visual system is not loaded`);
   }
 }
 if (failures.length) {
