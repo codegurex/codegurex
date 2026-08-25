@@ -853,7 +853,7 @@
 .cg-path-heading .cg-section-label {
   color: #909caf;
 }
-.cg-path-heading .cg-section-label > span {
+.cg-path-heading .cg-section-label > span:first-child {
   border-color: #3a465a;
   background: #192132;
   color: #87a3ff;
@@ -1209,7 +1209,7 @@
 .cg-final-cta .cg-section-label {
   color: var(--cg-muted);
 }
-.cg-final-cta .cg-section-label > span {
+.cg-final-cta .cg-section-label > span:first-child {
   border-color: #ccd6f2;
   background: #f2f5ff;
   color: var(--cg-blue-deep);

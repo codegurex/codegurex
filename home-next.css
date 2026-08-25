@@ -771,7 +771,7 @@
   letter-spacing: 0.09em;
 }
 
-.cg-section-label > span {
+.cg-section-label > span:first-child {
   display: grid;
   width: 27px;
   height: 27px;
