@@ -1,5 +1,7 @@
 import { cp, copyFile, mkdir, rm } from "node:fs/promises";
 
+await import("./generate-service-pages.mjs");
+
 const output = new URL("./dist/", import.meta.url);
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
@@ -12,6 +14,10 @@ for (const file of [
   "rendimiento-web.html",
   "seguridad-web.html",
   "seguridad-aplicaciones-ia.html",
+  "seguridad-apis.html",
+  "seguridad-agentes-ia.html",
+  "hardening-infraestructura-nube.html",
+  "codegurex-sentinel.html",
   "caso-codegurex.html",
   "styles.css",
   "home-next.css",

@@ -1,6 +1,8 @@
 import { access, readFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 
+await import("./generate-service-pages.mjs");
+
 const root = dirname(
   new URL(import.meta.url).pathname.replace(/^\/(?:[A-Za-z]:)/, (value) =>
     value.slice(1),
@@ -16,6 +18,10 @@ const pages = [
   "rendimiento-web.html",
   "seguridad-web.html",
   "seguridad-aplicaciones-ia.html",
+  "seguridad-apis.html",
+  "seguridad-agentes-ia.html",
+  "hardening-infraestructura-nube.html",
+  "codegurex-sentinel.html",
   "caso-codegurex.html",
 ];
 for (const page of pages) {

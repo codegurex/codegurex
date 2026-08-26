@@ -44,24 +44,67 @@
       name="twitter:description"
       content="Revisión responsable, priorización y mitigación con alcance autorizado."
     />
-    <title>Seguridad de Aplicaciones Web | CodeGurex</title>
+    <title>Seguridad de aplicaciones web | CodeGurex</title>
     <link rel="stylesheet" href="/styles.css?v=12" />
     <link rel="stylesheet" href="/internal-next.css?v=2" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Seguridad de aplicaciones web",
-        "serviceType": "Evaluación de seguridad web",
-        "url": "https://codegurex.com/seguridad-web.html",
-        "description": "Evaluación autorizada de exposición, autenticación, dependencias, configuración y controles de aplicaciones web con hallazgos y mitigaciones priorizadas.",
-        "provider": {
-          "@type": "Organization",
-          "name": "CodeGurex",
-          "url": "https://codegurex.com/",
-          "slogan": "Security for the AI Era"
-        },
-        "areaServed": "Worldwide"
+        "@graph": [
+          {
+            "@type": "Service",
+            "@id": "https://codegurex.com/seguridad-web.html#service",
+            "name": "Seguridad de aplicaciones web",
+            "serviceType": "Evaluación de seguridad web",
+            "url": "https://codegurex.com/seguridad-web.html",
+            "description": "Evaluación autorizada de exposición, autenticación, autorización, entradas, dependencias, configuración y controles de aplicaciones web con hallazgos priorizados.",
+            "provider": {
+              "@type": "Organization",
+              "@id": "https://codegurex.com/#organization",
+              "name": "CodeGurex",
+              "url": "https://codegurex.com/"
+            },
+            "areaServed": "Worldwide"
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://codegurex.com/seguridad-web.html#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "¿Realizan pentesting sin autorización?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Toda prueba se limita a activos, técnicas y condiciones autorizadas previamente."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "¿La revisión puede afectar el sitio?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Empezamos con comprobaciones de bajo impacto. Cualquier acción con riesgo operativo se acuerda antes."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "¿Garantizan que nunca habrá un ataque?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Ninguna empresa puede prometer seguridad absoluta. Reducimos riesgos y fortalecemos la capacidad de prevención y respuesta."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "¿Pueden implementar las correcciones?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sí, según la tecnología, los accesos y el alcance acordado."
+                }
+              }
+            ]
+          }
+        ]
       }
     </script>
   </head>
@@ -78,13 +121,13 @@
           ></a
         >
         <nav class="desktop-nav" aria-label="Navegación principal">
-          <a href="/#sentinel">Sentinel</a
+          <a href="/codegurex-sentinel.html">Sentinel</a
           ><a href="/#capabilities">Capacidades</a
           ><a href="/seguridad-web.html" aria-current="page">Seguridad web</a
           ><a href="/#research">Investigación</a><a href="/#company">Empresa</a>
         </nav>
-        <a class="button button-primary nav-cta" href="/#contacto"
-          >Hablar con CodeGurex</a
+        <a class="button button-primary nav-cta" href="/?assessment=web-security"
+          >Solicitar evaluación</a
         ><button
           class="menu-button"
           id="menuButton"
@@ -102,11 +145,11 @@
         aria-label="Navegación móvil"
         hidden
       >
-        <a href="/#sentinel">Sentinel</a><a href="/#capabilities">Capacidades</a
+        <a href="/codegurex-sentinel.html">Sentinel</a><a href="/#capabilities">Capacidades</a
         ><a href="/seguridad-web.html">Seguridad web</a
         ><a href="/#research">Investigación</a><a href="/#company">Empresa</a
-        ><a class="button button-primary" href="/#contacto"
-          >Hablar con CodeGurex</a
+        ><a class="button button-primary" href="/?assessment=web-security"
+          >Solicitar evaluación</a
         >
       </nav>
     </header>
@@ -126,15 +169,14 @@
               Seguridad para aplicaciones que <span>sostienen tu negocio.</span>
             </h1>
             <p class="service-hero-lead">
-              La capacidad comercial actual de CodeGurex se concentra en
-              seguridad web. Evaluamos exposición, configuración y controles con
-              alcance autorizado, mientras Sentinel evoluciona hacia una visión
-              conectada de aplicaciones, APIs e IA.
+              Evaluamos exposición, autenticación, autorización, entradas,
+              configuración, dependencias y controles de una aplicación web con
+              alcance autorizado y prioridades claras de mitigación.
             </p>
             <div class="service-hero-actions">
-              <a class="button button-primary" href="/#contacto"
+              <a class="button button-primary" href="/?assessment=web-security"
                 >Solicitar evaluación ↗</a
-              ><a class="button button-secondary" href="/#sentinel"
+              ><a class="button button-secondary" href="/codegurex-sentinel.html"
                 >Conocer Sentinel</a
               >
             </div>
@@ -275,6 +317,34 @@
       <section class="service-section">
         <div class="container">
           <div class="section-heading centered">
+            <p class="section-kicker">REFERENCIAS TÉCNICAS</p>
+            <h2>Criterios actuales aplicados al contexto de la aplicación.</h2>
+            <p>
+              OWASP Top 10 es una referencia de concienciación. La evaluación
+              amplía la revisión según arquitectura, funciones, datos y alcance
+              autorizado.
+            </p>
+          </div>
+          <div class="related-services">
+            <a
+              href="https://owasp.org/Top10/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span>OWASP / WEB APPLICATION SECURITY</span
+              ><strong>OWASP Top 10:2025 ↗</strong></a
+            ><a href="/seguridad-apis.html"
+              ><span>CODEGUREX / API SECURITY</span
+              ><strong>Auditoría de seguridad de APIs ↗</strong></a
+            ><a href="/hardening-infraestructura-nube.html"
+              ><span>CODEGUREX / INFRASTRUCTURE</span
+              ><strong>Hardening de infraestructura y nube ↗</strong></a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="service-section">
+        <div class="container">
+          <div class="section-heading centered">
             <p class="section-kicker">PROCESO RESPONSABLE</p>
             <h2>Alcance claro. Evidencia. <span>Mitigación.</span></h2>
           </div>
@@ -355,15 +425,15 @@
             </h2>
           </div>
           <div class="related-services">
-            <a href="/#sentinel"
+            <a href="/codegurex-sentinel.html"
               ><span>PLATFORM / EVOLVING</span
               ><strong>CodeGurex Sentinel ↗</strong></a
-            ><a href="/auditoria-web.html"
-              ><span>ASSESS / AVAILABLE</span
-              ><strong>Auditoría de seguridad ↗</strong></a
-            ><a href="/rendimiento-web.html"
-              ><span>SUPPORT / WEB</span
-              ><strong>Ingeniería de rendimiento ↗</strong></a
+            ><a href="/seguridad-apis.html"
+              ><span>API SECURITY / AVAILABLE</span
+              ><strong>Auditoría de seguridad de APIs ↗</strong></a
+            ><a href="/seguridad-aplicaciones-ia.html"
+              ><span>AI SECURITY / AVAILABLE</span
+              ><strong>Seguridad para aplicaciones con IA ↗</strong></a
             >
           </div>
         </div>
@@ -377,9 +447,9 @@
             primer contacto.
           </p>
           <div class="button-row centered-row">
-            <a class="button button-light" href="/#contacto"
-              >Hablar con CodeGurex ↗</a
-            ><a class="button button-ghost" href="/#sentinel"
+            <a class="button button-light" href="/?assessment=web-security"
+              >Solicitar evaluación ↗</a
+            ><a class="button button-ghost" href="/codegurex-sentinel.html"
               >Explorar Sentinel</a
             >
           </div>
@@ -400,10 +470,11 @@
           <p>AI Security · Cybersecurity · Secure Infrastructure</p>
         </div>
         <nav aria-label="Navegación">
-          <a href="/#sentinel">Sentinel</a
+          <a href="/codegurex-sentinel.html">Sentinel</a
+          ><a href="/seguridad-aplicaciones-ia.html">Seguridad de IA</a
+          ><a href="/seguridad-apis.html">Seguridad de APIs</a
           ><a href="/seguridad-web.html">Seguridad web</a
-          ><a href="/auditoria-web.html">Evaluación técnica</a
-          ><a href="/#research">Investigación</a
+          ><a href="/hardening-infraestructura-nube.html">Infraestructura</a
           ><a href="/privacidad.html">Privacidad</a>
         </nav>
         <div class="footer-contact">
