@@ -503,13 +503,13 @@ function renderPage(page) {
       <div class="container nav-wrap">
         <a class="brand" href="/" aria-label="CodeGurex, inicio"><span class="brand-symbol" aria-hidden="true"><img src="/favicon-512.png" alt="" /></span><span class="brand-copy"><strong>CODEGUREX</strong><small>SECURITY FOR THE AI ERA</small></span></a>
         <nav class="desktop-nav" aria-label="Navegación principal">
-          <a href="/codegurex-sentinel.html">Sentinel</a><a href="/#capabilities">Capacidades</a><a href="${page.canonical.replace("https://codegurex.com", "")}" aria-current="page">${page.schemaType === "SoftwareApplication" ? "Plataforma" : "Servicio"}</a><a href="/#research">Investigación</a><a href="/#company">Empresa</a>
+          <a href="/codegurex-sentinel.html">Sentinel</a><a href="/#capabilities">Capacidades</a><a href="${page.canonical.replace("https://codegurex.com", "")}" aria-current="page">${page.schemaType === "SoftwareApplication" ? "Plataforma" : "Servicio"}</a><a href="/#research">Investigación</a><a href="/nosotros.html">Empresa</a>
         </nav>
-        <a class="button button-primary nav-cta" href="/?assessment=${page.query}">${page.schemaType === "SoftwareApplication" ? "Conversar sobre Sentinel" : "Solicitar evaluación"}</a>
+        <a class="button button-primary nav-cta" href="/contacto.html">${page.schemaType === "SoftwareApplication" ? "Conversar sobre Sentinel" : "Solicitar evaluación"}</a>
         <button class="menu-button" id="menuButton" type="button" aria-label="Abrir menú" aria-controls="mobileMenu" aria-expanded="false"><span></span><span></span><span></span></button>
       </div>
       <nav class="mobile-menu" id="mobileMenu" aria-label="Navegación móvil" hidden>
-        <a href="/codegurex-sentinel.html">Sentinel</a><a href="/#capabilities">Capacidades</a><a href="${page.canonical.replace("https://codegurex.com", "")}">${page.schemaType === "SoftwareApplication" ? "Plataforma" : "Servicio"}</a><a href="/#research">Investigación</a><a href="/#company">Empresa</a><a class="button button-primary" href="/?assessment=${page.query}">${page.schemaType === "SoftwareApplication" ? "Conversar sobre Sentinel" : "Solicitar evaluación"}</a>
+        <a href="/codegurex-sentinel.html">Sentinel</a><a href="/#capabilities">Capacidades</a><a href="${page.canonical.replace("https://codegurex.com", "")}">${page.schemaType === "SoftwareApplication" ? "Plataforma" : "Servicio"}</a><a href="/#research">Investigación</a><a href="/nosotros.html">Empresa</a><a class="button button-primary" href="/contacto.html">${page.schemaType === "SoftwareApplication" ? "Conversar sobre Sentinel" : "Solicitar evaluación"}</a>
       </nav>
     </header>
     <main id="contenido">
@@ -522,7 +522,7 @@ function renderPage(page) {
             <h1>${page.headline}</h1>
             <p class="service-hero-lead">${escapeHtml(page.lead)}</p>
             <div class="service-hero-actions">
-              <a class="button button-primary" href="/?assessment=${page.query}">${page.schemaType === "SoftwareApplication" ? "Conversar sobre Sentinel" : "Solicitar evaluación"} ↗</a><a class="button button-secondary" href="/">Volver a CodeGurex</a>
+              <a class="button button-primary" href="/contacto.html">${page.schemaType === "SoftwareApplication" ? "Conversar sobre Sentinel" : "Solicitar evaluación"} ↗</a><a class="button button-secondary" href="/">Volver a CodeGurex</a>
             </div>
           </div>
           <aside class="service-summary">
@@ -577,14 +577,14 @@ function renderPage(page) {
       <section class="final-cta">
         <div class="container final-cta-box">
           <p class="section-kicker">SIGUIENTE PASO</p><h2>${escapeHtml(page.ctaTitle)}</h2><p>${escapeHtml(page.ctaCopy)}</p>
-          <div class="button-row centered-row"><a class="button button-light" href="/?assessment=${page.query}">${page.schemaType === "SoftwareApplication" ? "Conversar sobre Sentinel" : "Solicitar evaluación"} ↗</a></div>
+          <div class="button-row centered-row"><a class="button button-light" href="/contacto.html">${page.schemaType === "SoftwareApplication" ? "Conversar sobre Sentinel" : "Solicitar evaluación"} ↗</a></div>
         </div>
       </section>
     </main>
     <footer class="site-footer">
       <div class="container footer-grid">
         <div><a class="brand" href="/"><span class="brand-symbol" aria-hidden="true"><img src="/favicon-512.png" alt="" /></span><span class="brand-copy"><strong>CODEGUREX</strong><small>SECURITY FOR THE AI ERA</small></span></a><p>AI Security · Cybersecurity · Secure Infrastructure</p></div>
-        <nav aria-label="Navegación"><a href="/codegurex-sentinel.html">Sentinel</a><a href="/seguridad-aplicaciones-ia.html">Seguridad de IA</a><a href="/seguridad-apis.html">Seguridad de APIs</a><a href="/seguridad-web.html">Seguridad web</a><a href="/hardening-infraestructura-nube.html">Infraestructura</a><a href="/privacidad.html">Privacidad</a></nav>
+        <nav aria-label="Navegación"><a href="/codegurex-sentinel.html">Sentinel</a><a href="/seguridad-aplicaciones-ia.html">Seguridad de IA</a><a href="/seguridad-apis.html">Seguridad de APIs</a><a href="/seguridad-web.html">Seguridad web</a><a href="/hardening-infraestructura-nube.html">Infraestructura</a><a href="/nosotros.html">Nosotros</a><a href="/fundador.html">Fundador</a><a href="/contacto.html">Contacto</a><a href="/privacidad.html">Privacidad</a></nav>
         <div class="footer-contact"><a href="mailto:contacto@codegurex.com">contacto@codegurex.com</a><div class="social-block"><span class="social-label">CONECTA CON CODEGUREX</span><div class="social-links" aria-label="Redes sociales de CodeGurex"><a class="social-link" href="https://wa.me/593963223403" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><img src="/img/social/whatsapp.svg?v=2" alt="" /></a><a class="social-link" href="https://www.linkedin.com/in/codegurex/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="/img/social/linkedin.svg?v=2" alt="" /></a><a class="social-link" href="https://github.com/codegurex" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img src="/img/social/github.svg?v=2" alt="" /></a></div></div></div>
       </div>
       <div class="container footer-bottom"><span>© <span id="currentYear">2026</span> CodeGurex</span><span><a href="/privacidad.html">Privacidad</a> · Security for the AI Era.</span></div>

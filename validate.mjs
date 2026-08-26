@@ -23,6 +23,9 @@ const pages = [
   "hardening-infraestructura-nube.html",
   "codegurex-sentinel.html",
   "caso-codegurex.html",
+  "nosotros.html",
+  "fundador.html",
+  "contacto.html",
 ];
 for (const page of pages) {
   const html = await readFile(resolve(root, page), "utf8");
