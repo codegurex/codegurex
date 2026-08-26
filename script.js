@@ -22,7 +22,7 @@ menuButton?.addEventListener("click", () => {
   setMenu(menuButton.getAttribute("aria-expanded") !== "true");
 });
 
-mobileMenu?.querySelectorAll("a").forEach((link) => {
+mobileMenu?.querySelectorAll("a, button").forEach((link) => {
   link.addEventListener("click", () => setMenu(false));
 });
 
@@ -138,6 +138,10 @@ form?.addEventListener("submit", (event) => {
       ? "Request prepared. WhatsApp will open so you can review and confirm it."
       : "Solicitud preparada. Abriremos WhatsApp para que revises y confirmes el envío.";
   status.className = "form-status success";
+  window.gtag?.("event", "generate_lead", {
+    lead_source: "security_assessment_form",
+    service_interest: selectedInterest(),
+  });
   const isEnglish = interfaceLanguage() === "en";
   const lines = [
     isEnglish
@@ -160,3 +164,11 @@ form?.addEventListener("submit", (event) => {
 
 const currentYear = document.getElementById("currentYear");
 if (currentYear) currentYear.textContent = new Date().getFullYear();
+
+document.querySelectorAll(".whatsapp-float").forEach((link) => {
+  link.addEventListener("click", () => {
+    window.gtag?.("event", "whatsapp_click", {
+      link_location: "floating_button",
+    });
+  });
+});

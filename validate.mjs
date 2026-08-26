@@ -77,7 +77,7 @@ for (const page of pages) {
   if (!/styles\.css\?v=12/.test(html))
     failures.push(`${page}: current consent styles are not loaded`);
   if (page !== "privacidad.html") {
-    if (!/script\.js\?v=(?:3|4)/.test(html))
+    if (!/script\.js\?v=(?:3|4|5)/.test(html))
       failures.push(`${page}: current interaction script is not loaded`);
     if (!/id="menuButton"/.test(html))
       failures.push(`${page}: menu button is not wired`);

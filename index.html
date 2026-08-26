@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="CodeGurex is building security for AI systems, applications, agents and digital infrastructure. Explore the evolution of CodeGurex Sentinel."
+      content="Security assessments for applications, APIs and AI systems. CodeGurex identifies exposure, vulnerabilities and priority risks and delivers a clear remediation plan."
     />
     <meta name="author" content="CodeGurex" />
     <meta name="theme-color" content="#f6f7f9" />
@@ -29,7 +29,7 @@
     <meta property="og:title" content="CodeGurex | Security for the AI Era" />
     <meta
       property="og:description"
-      content="Protecting AI systems, applications, agents and digital infrastructure."
+      content="Security assessments for applications, APIs and AI systems, with prioritized findings and a clear remediation plan."
     />
     <meta property="og:image" content="https://codegurex.com/og.png" />
     <meta
@@ -40,13 +40,13 @@
     <meta name="twitter:title" content="CodeGurex | Security for the AI Era" />
     <meta
       name="twitter:description"
-      content="Protecting AI systems, applications, agents and digital infrastructure."
+      content="Security assessments for applications, APIs and AI systems, with prioritized findings and a clear remediation plan."
     />
     <meta name="twitter:image" content="https://codegurex.com/og.png" />
     <title>CodeGurex | Security for the AI Era</title>
     <link rel="stylesheet" href="styles.css?v=12" />
-    <link rel="stylesheet" href="home-next.css?v=4" />
-    <link rel="stylesheet" href="home-sections.css?v=7" />
+    <link rel="stylesheet" href="home-next.css?v=5" />
+    <link rel="stylesheet" href="home-sections.css?v=8" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -96,12 +96,13 @@
             ],
             "worksFor": { "@id": "https://codegurex.com/#organization" },
             "knowsAbout": [
-              "Desarrollo web",
-              "Ciberseguridad web",
+              "Seguridad de aplicaciones con inteligencia artificial",
+              "Seguridad de APIs",
+              "Seguridad de aplicaciones web",
+              "Seguridad de agentes de IA",
+              "Infraestructura segura",
               "Pentesting",
-              "Auditoría técnica",
-              "SEO técnico",
-              "Rendimiento web"
+              "Auditoría técnica de seguridad"
             ]
           },
           {
@@ -115,11 +116,11 @@
           },
           {
             "@type": "Service",
-            "@id": "https://codegurex.com/#audit",
-            "name": "CodeGurex Web Audit",
+            "@id": "https://codegurex.com/#security-assessment",
+            "name": "Evaluación de seguridad para aplicaciones, APIs y sistemas con IA",
             "provider": { "@id": "https://codegurex.com/#organization" },
-            "serviceType": "Auditoría técnica web",
-            "description": "Diagnóstico de SEO técnico, seguridad, rendimiento e infraestructura con hallazgos priorizados y acciones correctivas.",
+            "serviceType": "Evaluación de ciberseguridad",
+            "description": "Identificamos exposición, vulnerabilidades y riesgos prioritarios en aplicaciones, APIs y sistemas con inteligencia artificial, y entregamos un plan claro de corrección.",
             "areaServed": "Worldwide"
           }
         ]
@@ -154,11 +155,12 @@
           >
             <strong>EN</strong><i aria-hidden="true">/</i
             ><span>ES</span></button
-          ><a
-            class="cg-button cg-button-primary cg-nav-cta"
-            href="#sentinel"
-            data-copy="explore"
-            >Explore Sentinel</a
+          ><button
+            class="cg-button cg-button-primary cg-nav-cta js-contact-open"
+            type="button"
+            data-copy="request-assessment"
+            data-assessment-trigger
+            >Request assessment</button
           >
         </div>
         <button
@@ -183,11 +185,12 @@
         ><a href="#security-services" data-copy="nav-services">Services</a
         ><a href="#research" data-copy="nav-research">Research</a
         ><a href="#company" data-copy="nav-company">Company</a
-        ><a
-          class="cg-button cg-button-primary"
-          href="#sentinel"
-          data-copy="explore"
-          >Explore Sentinel</a
+        ><button
+          class="cg-button cg-button-primary js-contact-open"
+          type="button"
+          data-copy="request-assessment"
+          data-assessment-trigger
+          >Request assessment</button
         >
       </nav>
     </header>
@@ -202,21 +205,34 @@
               >
             </p>
             <h1 data-copy="hero-title">Security for<br />the AI Era.</h1>
+            <p class="cg-hero-offer" data-copy="hero-offer">
+              Security assessment for applications, APIs and AI systems.
+            </p>
             <p class="cg-hero-lead" data-copy="hero-lead">
-              Protecting AI systems, applications, agents and digital
-              infrastructure.
+              We identify exposure, vulnerabilities and priority risks, then
+              deliver a clear remediation plan.
             </p>
             <div class="cg-hero-actions">
-              <a class="cg-button cg-button-primary" href="#sentinel"
+              <button
+                class="cg-button cg-button-primary js-contact-open"
+                type="button"
+                data-copy="request-assessment"
+                data-assessment-trigger
+              >
+                Request assessment <span aria-hidden="true">↗</span></button
+              ><a class="cg-button cg-button-secondary" href="#sentinel"
                 ><span data-copy="explore">Explore Sentinel</span>
                 <span aria-hidden="true">↗</span></a
-              ><button
-                class="cg-button cg-button-secondary js-contact-open"
-                type="button"
-                data-copy="talk"
               >
-                Talk to CodeGurex
-              </button>
+            </div>
+            <div
+              class="cg-hero-deliverables"
+              aria-label="Assessment deliverables"
+            >
+              <strong data-copy="you-receive">YOU RECEIVE</strong>
+              <span data-copy="exposure-map">Exposure map</span>
+              <span data-copy="prioritized-risks">Prioritized risks</span>
+              <span data-copy="remediation-plan">Remediation plan</span>
             </div>
           </div>
           <div
@@ -1096,28 +1112,34 @@
                 ><span data-copy="services-label">CODEGUREX SECURITY</span>
               </p>
               <h2 id="services-title" data-copy="services-title">
-                Security expertise when you need humans involved.
+                A security assessment with clear outputs.
               </h2>
             </div>
             <p data-copy="services-copy">
-              Professional support remains focused and secondary to the Sentinel
-              product direction.
+              A focused entry point for understanding exposure, prioritizing
+              risk and deciding what to fix first.
             </p>
           </div>
           <div class="cg-service-list" data-reveal>
             <article>
               <span>01</span>
-              <h3 data-copy="service-title-web">Web &amp; API Security</h3>
-              <p data-copy="service-web">
-                Current commercial work focuses on web security assessments. API
-                coverage is expanding.
+              <h3 data-copy="assessment-offer">
+                Application, API &amp; AI Security Assessment
+              </h3>
+              <p data-copy="assessment-offer-copy">
+                We identify exposure, vulnerabilities and priority risks, then
+                deliver a clear remediation plan.
               </p>
               <div>
-                <b class="available" data-copy="available-web"
-                  >AVAILABLE · WEB</b
-                ><a href="/seguridad-web.html" data-copy="service-details"
-                  >Service details ↗</a
+                <b class="available" data-copy="available">AVAILABLE</b
+                ><button
+                  class="cg-service-request js-contact-open"
+                  type="button"
+                  data-copy="request-assessment"
+                  data-assessment-trigger
                 >
+                  Request assessment
+                </button>
               </div>
             </article>
             <article>
@@ -1292,26 +1314,27 @@
         <div class="container cg-final-cta-inner" data-reveal>
           <p class="cg-section-label"><span>11</span>CODEGUREX</p>
           <h2 id="final-cta-title">
-            <span data-copy="cta-line-1">Build what's next.</span
-            ><span data-copy="cta-line-2">We'll help secure it.</span>
+            <span data-copy="cta-line-1">Understand your exposure.</span
+            ><span data-copy="cta-line-2">Know what to fix first.</span>
           </h2>
           <p data-copy="cta-copy">
-            Explore Sentinel or talk to CodeGurex about securing your
-            applications and infrastructure.
+            Request an assessment for your application, API or AI system and
+            receive prioritized findings with a clear remediation path.
           </p>
           <div>
-            <a
-              class="cg-button cg-button-light"
+            <button
+              class="cg-button cg-button-light js-contact-open"
+              type="button"
+              data-copy="request-assessment"
+              data-assessment-trigger
+              >Request assessment</button
+            ><a
+              class="cg-button cg-button-dark-outline"
               href="#sentinel"
               data-copy="explore"
-              >Explore Sentinel</a
-            ><button
-              class="cg-button cg-button-dark-outline js-contact-open"
-              type="button"
-              data-copy="talk"
             >
-              Talk to CodeGurex
-            </button>
+              Explore Sentinel
+            </a>
           </div>
         </div>
       </section>
@@ -1426,10 +1449,10 @@
           <div>
             <span data-copy="contact-kicker">CODEGUREX / CONTACT</span>
             <h2 id="contactDialogTitle" data-copy="contact-title">
-              Talk to CodeGurex.
+              Request a security assessment.
             </h2>
             <p data-copy="contact-copy">
-              Share the essential context. You review and confirm before
+              Tell us what you need to protect. You review and confirm before
               anything is sent through WhatsApp.
             </p>
           </div>
@@ -1522,8 +1545,8 @@
                     type="radio"
                     value="Security Assessment"
                     required
-                  /><span data-copy="security-assessments"
-                    >Security Assessment</span
+                  /><span data-copy="assessment-offer"
+                    >Application, API &amp; AI Security Assessment</span
                   ></label
                 ><label
                   ><input
@@ -1597,13 +1620,13 @@
 
     <a
       class="whatsapp-float"
-      href="https://wa.me/593963223403?text=Hola%20CodeGurex%2C%20quiero%20solicitar%20un%20diagn%C3%B3stico%20web."
+      href="https://wa.me/593963223403?text=Hola%20CodeGurex%2C%20quiero%20solicitar%20una%20evaluaci%C3%B3n%20de%20seguridad%20para%20mi%20aplicaci%C3%B3n%2C%20API%20o%20sistema%20con%20IA."
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Hablar con CodeGurex por WhatsApp"
       ><img src="img/social/whatsapp.svg?v=2" alt="" aria-hidden="true"
     /></a>
-    <script src="home-next.js?v=2" defer></script>
-    <script src="script.js?v=4" defer></script>
+    <script src="home-next.js?v=3" defer></script>
+    <script src="script.js?v=5" defer></script>
   </body>
 </html>

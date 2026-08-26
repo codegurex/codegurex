@@ -10,8 +10,14 @@ const homeCopy = {
     "nav-company": "Company",
     eyebrow: "AI Security · Cybersecurity · Secure Infrastructure",
     "hero-title": "Security for<br>the AI Era.",
+    "hero-offer": "Security assessment for applications, APIs and AI systems.",
     "hero-lead":
-      "Protecting AI systems, applications, agents and digital infrastructure.",
+      "We identify exposure, vulnerabilities and priority risks, then deliver a clear remediation plan.",
+    "request-assessment": "Request assessment",
+    "you-receive": "YOU RECEIVE",
+    "exposure-map": "Exposure map",
+    "prioritized-risks": "Prioritized risks",
+    "remediation-plan": "Remediation plan",
     explore: "Explore Sentinel",
     talk: "Talk to CodeGurex",
     "new-surface": "THE NEW ATTACK SURFACE",
@@ -209,9 +215,13 @@ const homeCopy = {
     privileged: "PRIVILEGED",
     "severity-high": "HIGH",
     "services-label": "CODEGUREX SECURITY",
-    "services-title": "Security expertise when you need humans involved.",
+    "services-title": "A security assessment with clear outputs.",
     "services-copy":
-      "Professional support remains focused and secondary to the Sentinel product direction.",
+      "A focused entry point for understanding exposure, prioritizing risk and deciding what to fix first.",
+    "assessment-offer": "Application, API & AI Security Assessment",
+    "assessment-offer-copy":
+      "We identify exposure, vulnerabilities and priority risks, then deliver a clear remediation plan.",
+    available: "AVAILABLE",
     "service-web":
       "Current commercial work focuses on web security assessments. API coverage is expanding.",
     "service-title-web": "Web & API Security",
@@ -255,10 +265,10 @@ const homeCopy = {
     "principle-3": "Build for what's next",
     "principle-3-copy":
       "Security designed for applications, cloud and intelligent systems.",
-    "cta-line-1": "Build what's next.",
-    "cta-line-2": "We'll help secure it.",
+    "cta-line-1": "Understand your exposure.",
+    "cta-line-2": "Know what to fix first.",
     "cta-copy":
-      "Explore Sentinel or talk to CodeGurex about securing your applications and infrastructure.",
+      "Request an assessment for your application, API or AI system and receive prioritized findings with a clear remediation path.",
     "footer-descriptor": "Security for the AI Era.",
     "security-assessments": "Security Assessments",
     about: "About",
@@ -270,10 +280,10 @@ const homeCopy = {
     privacy: "Privacy",
     terms: "Terms",
     "footer-note": "Built with clarity and technical discipline.",
-    "contact-title": "Talk to CodeGurex.",
+    "contact-title": "Request a security assessment.",
     "contact-kicker": "CODEGUREX / CONTACT",
     "contact-copy":
-      "Share the essential context. You review and confirm before anything is sent through WhatsApp.",
+      "Tell us what you need to protect. You review and confirm before anything is sent through WhatsApp.",
     "direct-contact": "DIRECT CONTACT",
     "contact-safety":
       "Never send passwords, access keys or sensitive credentials through this form.",
@@ -301,8 +311,15 @@ const homeCopy = {
     "nav-company": "Empresa",
     eyebrow: "Seguridad de IA · Ciberseguridad · Infraestructura segura",
     "hero-title": "Seguridad para<br>la era de la inteligencia artificial.",
+    "hero-offer":
+      "Evaluación de seguridad para aplicaciones, APIs y sistemas con IA.",
     "hero-lead":
-      "Protegemos sistemas de IA, aplicaciones, agentes e infraestructura digital.",
+      "Identificamos exposición, vulnerabilidades y riesgos prioritarios, y entregamos un plan claro de corrección.",
+    "request-assessment": "Solicitar evaluación",
+    "you-receive": "RECIBES",
+    "exposure-map": "Mapa de exposición",
+    "prioritized-risks": "Riesgos priorizados",
+    "remediation-plan": "Plan de corrección",
     explore: "Explorar Sentinel",
     talk: "Hablar con CodeGurex",
     "new-surface": "LA NUEVA SUPERFICIE DE ATAQUE",
@@ -501,9 +518,14 @@ const homeCopy = {
     privileged: "PRIVILEGIADA",
     "severity-high": "ALTA",
     "services-label": "SEGURIDAD CODEGUREX",
-    "services-title": "Experiencia humana en seguridad cuando la necesitas.",
+    "services-title": "Una evaluación de seguridad con resultados claros.",
     "services-copy":
-      "El apoyo profesional se mantiene enfocado y en segundo plano frente a la dirección principal de Sentinel.",
+      "Un punto de entrada concreto para entender la exposición, priorizar riesgos y decidir qué corregir primero.",
+    "assessment-offer":
+      "Evaluación de seguridad para aplicaciones, APIs y sistemas con IA",
+    "assessment-offer-copy":
+      "Identificamos exposición, vulnerabilidades y riesgos prioritarios, y entregamos un plan claro de corrección.",
+    available: "DISPONIBLE",
     "service-web":
       "El trabajo comercial actual se concentra en evaluaciones de seguridad web. La cobertura de APIs está evolucionando.",
     "service-title-web": "Seguridad web y de APIs",
@@ -548,10 +570,10 @@ const homeCopy = {
     "principle-3": "Construir para lo que viene",
     "principle-3-copy":
       "Seguridad diseñada para aplicaciones, cloud y sistemas inteligentes.",
-    "cta-line-1": "Construye lo que viene.",
-    "cta-line-2": "Te ayudamos a protegerlo.",
+    "cta-line-1": "Comprende tu exposición.",
+    "cta-line-2": "Sabe qué corregir primero.",
     "cta-copy":
-      "Explora Sentinel o conversa con CodeGurex sobre la seguridad de tus aplicaciones e infraestructura.",
+      "Solicita una evaluación para tu aplicación, API o sistema con IA y recibe hallazgos priorizados con una ruta clara de corrección.",
     "footer-descriptor": "Seguridad para la era de la inteligencia artificial.",
     "security-assessments": "Evaluaciones de seguridad",
     about: "Nosotros",
@@ -563,10 +585,10 @@ const homeCopy = {
     privacy: "Privacidad",
     terms: "Términos",
     "footer-note": "Construido con claridad y disciplina técnica.",
-    "contact-title": "Habla con CodeGurex.",
+    "contact-title": "Solicita una evaluación de seguridad.",
     "contact-kicker": "CODEGUREX / CONTACTO",
     "contact-copy":
-      "Comparte el contexto esencial. Tú revisas y confirmas antes de enviar cualquier información por WhatsApp.",
+      "Cuéntanos qué necesitas proteger. Tú revisas y confirmas antes de enviar cualquier información por WhatsApp.",
     "direct-contact": "CONTACTO DIRECTO",
     "contact-safety":
       "Nunca envíes contraseñas, claves de acceso ni credenciales sensibles mediante este formulario.",
@@ -702,6 +724,15 @@ let contactTrigger = null;
 document.querySelectorAll(".js-contact-open").forEach((button) => {
   button.addEventListener("click", () => {
     contactTrigger = button;
+    if (button.hasAttribute("data-assessment-trigger")) {
+      const assessmentOption = document.querySelector(
+        '#contactForm input[name="interest"][value="Security Assessment"]',
+      );
+      if (assessmentOption) assessmentOption.checked = true;
+      window.gtag?.("event", "assessment_start", {
+        trigger_text: button.textContent.trim(),
+      });
+    }
     contactDialog?.showModal();
     document.body.classList.add("dialog-open");
   });

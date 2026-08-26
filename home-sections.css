@@ -1057,10 +1057,20 @@
   border: 1px solid var(--cg-border);
   color: #7a838f;
 }
-.cg-service-list a {
+.cg-service-list a,
+.cg-service-list button {
+  padding: 0;
+  border: 0;
+  background: transparent;
   color: var(--cg-blue);
+  cursor: pointer;
+  font-family: inherit;
   font-size: 0.67rem;
   font-weight: 700;
+}
+.cg-service-list a:hover,
+.cg-service-list button:hover {
+  color: var(--cg-blue-deep);
 }
 .cg-services-action {
   display: flex;
