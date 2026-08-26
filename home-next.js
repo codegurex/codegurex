@@ -87,6 +87,7 @@ const homeCopy = {
     "available-foundation": "AVAILABLE FOUNDATION",
     "in-development": "IN DEVELOPMENT",
     "future-direction": "FUTURE DIRECTION",
+    "service-available": "ASSESSMENT SERVICE AVAILABLE",
     "capabilities-label": "CORE CAPABILITIES",
     "capabilities-title": "One platform. A clearer view of risk.",
     "capabilities-intro":
@@ -136,8 +137,7 @@ const homeCopy = {
     "ai-title": "Secure systems that can think and act.",
     "ai-copy":
       "Modern AI systems no longer just generate answers. They access data, use tools, call APIs and increasingly take actions.",
-    "concept-note":
-      "Conceptual security model · No production capability claimed",
+    "concept-note": "Conceptual model of the assessment scope",
     "risk-prompt": "Prompt Injection",
     "risk-sensitive": "Sensitive Data Exposure",
     "risk-agent": "Agent Manipulation",
@@ -232,7 +232,9 @@ const homeCopy = {
     "available-web": "AVAILABLE · WEB",
     "service-details": "Service details ↗",
     "service-ai":
-      "Assessment methods for emerging AI risks are being developed.",
+      "Focused review of models, prompts, data, RAG, agents, APIs, tools and permissions.",
+    "available-scoped": "AVAILABLE · SCOPED",
+    "service-ai-details": "Explore AI security ↗",
     "service-redteam":
       "A future service direction for controlled adversarial testing of AI systems.",
     "service-cloud":
@@ -389,6 +391,7 @@ const homeCopy = {
     "available-foundation": "BASE DISPONIBLE",
     "in-development": "EN DESARROLLO",
     "future-direction": "DIRECCIÓN FUTURA",
+    "service-available": "SERVICIO DE EVALUACIÓN DISPONIBLE",
     "capabilities-label": "CAPACIDADES CENTRALES",
     "capabilities-title": "Una plataforma. Una visión más clara del riesgo.",
     "capabilities-intro":
@@ -439,8 +442,7 @@ const homeCopy = {
     "ai-title": "Protege sistemas capaces de pensar y actuar.",
     "ai-copy":
       "Los sistemas modernos de IA ya no se limitan a generar respuestas. Acceden a datos, utilizan herramientas, llaman APIs y ejecutan cada vez más acciones.",
-    "concept-note":
-      "Modelo de seguridad conceptual · No representa una capacidad disponible en producción",
+    "concept-note": "Modelo conceptual del alcance de evaluación",
     "risk-prompt": "Inyección de instrucciones",
     "risk-sensitive": "Exposición de datos sensibles",
     "risk-agent": "Manipulación de agentes",
@@ -536,7 +538,9 @@ const homeCopy = {
     "available-web": "DISPONIBLE · WEB",
     "service-details": "Detalles del servicio ↗",
     "service-ai":
-      "Estamos desarrollando métodos de evaluación para riesgos emergentes de IA.",
+      "Revisión enfocada de modelos, prompts, datos, RAG, agentes, APIs, herramientas y permisos.",
+    "available-scoped": "DISPONIBLE · SEGÚN ALCANCE",
+    "service-ai-details": "Conocer seguridad de IA ↗",
     "service-redteam":
       "Una dirección futura para pruebas adversariales controladas de sistemas de IA.",
     "service-cloud":
@@ -745,6 +749,22 @@ contactDialog?.addEventListener("close", () => {
   document.body.classList.remove("dialog-open");
   contactTrigger?.focus();
 });
+
+const assessmentSource = new URLSearchParams(window.location.search).get(
+  "assessment",
+);
+if (assessmentSource && contactDialog) {
+  const assessmentOption = document.querySelector(
+    '#contactForm input[name="interest"][value="Security Assessment"]',
+  );
+  if (assessmentOption) assessmentOption.checked = true;
+  contactDialog.showModal();
+  document.body.classList.add("dialog-open");
+  window.gtag?.("event", "assessment_start", {
+    assessment_source: assessmentSource,
+    trigger_text: "service_page",
+  });
+}
 
 const currentYearV2 = document.getElementById("currentYearV2");
 if (currentYearV2) currentYearV2.textContent = new Date().getFullYear();

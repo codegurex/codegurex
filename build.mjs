@@ -11,6 +11,7 @@ for (const file of [
   "seo-tecnico.html",
   "rendimiento-web.html",
   "seguridad-web.html",
+  "seguridad-aplicaciones-ia.html",
   "caso-codegurex.html",
   "styles.css",
   "home-next.css",

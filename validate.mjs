@@ -15,6 +15,7 @@ const pages = [
   "seo-tecnico.html",
   "rendimiento-web.html",
   "seguridad-web.html",
+  "seguridad-aplicaciones-ia.html",
   "caso-codegurex.html",
 ];
 for (const page of pages) {
