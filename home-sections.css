@@ -1277,6 +1277,9 @@
 .cg-footer .cg-wordmark {
   color: var(--cg-ink);
 }
+.cg-footer .cg-wordmark-image {
+  width: min(100%, 220px);
+}
 .cg-footer .cg-wordmark > span {
   border: 0;
 }

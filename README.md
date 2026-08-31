@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://codegurex.com/">
-  <img src="./favicon-512.png" width="96" height="96" alt="Emblema de CodeGurex">
+  <img src="./img/codegurex-security-wordmark.png" width="420" alt="CodeGurex Security">
 </a>
 
 # CodeGurex Security

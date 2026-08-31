@@ -68,6 +68,12 @@
   letter-spacing: 0.075em;
 }
 
+.cg-wordmark-image {
+  display: block;
+  width: clamp(154px, 14vw, 190px);
+  height: auto;
+}
+
 .cg-wordmark > span {
   display: inline-grid;
   width: 26px;
@@ -673,6 +679,9 @@
 }
 
 @media (max-width: 760px) {
+  .cg-wordmark-image {
+    width: 148px;
+  }
   .home-ai-era .cg-nav-wrap {
     height: 68px;
   }

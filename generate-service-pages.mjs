@@ -478,7 +478,6 @@ function renderPage(page) {
     <meta name="description" content="${escapeHtml(page.meta)}" />
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <link rel="canonical" href="${page.canonical}" />
-    <link rel="icon" href="/favicon-cg.ico" sizes="any" />
     <link rel="icon" type="image/png" href="/favicon-512.png" sizes="512x512" />
     <link rel="apple-touch-icon" href="/favicon-512.png" />
     <link rel="manifest" href="/site.webmanifest" />
@@ -489,9 +488,11 @@ function renderPage(page) {
     <meta property="og:title" content="${escapeHtml(page.title)}" />
     <meta property="og:description" content="${escapeHtml(page.og)}" />
     <meta property="og:url" content="${page.canonical}" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content="https://codegurex.com/og-codegurex-security.png" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${escapeHtml(page.title)}" />
     <meta name="twitter:description" content="${escapeHtml(page.og)}" />
+    <meta name="twitter:image" content="https://codegurex.com/og-codegurex-security.png" />
     <title>${escapeHtml(page.title)}</title>
     <link rel="stylesheet" href="/styles.css?v=12" />
     <link rel="stylesheet" href="/internal-next.css?v=2" />
@@ -501,7 +502,7 @@ function renderPage(page) {
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
     <header class="site-header">
       <div class="container nav-wrap">
-        <a class="brand" href="/" aria-label="CodeGurex, inicio"><span class="brand-symbol" aria-hidden="true"><img src="/favicon-512.png" alt="" /></span><span class="brand-copy"><strong>CODEGUREX</strong><small>SECURITY FOR THE AI ERA</small></span></a>
+        <a class="brand" href="/" aria-label="CodeGurex Security, inicio"><span class="brand-symbol" aria-hidden="true"><img src="/img/codegurex-security-wordmark.png?v=1" alt="" /></span><span class="brand-copy"><strong>CODEGUREX</strong><small>SECURITY FOR THE AI ERA</small></span></a>
         <nav class="desktop-nav" aria-label="Navegación principal">
           <a href="/codegurex-sentinel.html">Sentinel</a><a href="/#capabilities">Capacidades</a><a href="${page.canonical.replace("https://codegurex.com", "")}" aria-current="page">${page.schemaType === "SoftwareApplication" ? "Plataforma" : "Servicio"}</a><a href="/#research">Investigación</a><a href="/nosotros.html">Empresa</a>
         </nav>
@@ -583,7 +584,7 @@ function renderPage(page) {
     </main>
     <footer class="site-footer">
       <div class="container footer-grid">
-        <div><a class="brand" href="/"><span class="brand-symbol" aria-hidden="true"><img src="/favicon-512.png" alt="" /></span><span class="brand-copy"><strong>CODEGUREX</strong><small>SECURITY FOR THE AI ERA</small></span></a><p>AI Security · Cybersecurity · Secure Infrastructure</p></div>
+        <div><a class="brand" href="/" aria-label="CodeGurex Security, inicio"><span class="brand-symbol" aria-hidden="true"><img src="/img/codegurex-security-wordmark.png?v=1" alt="" /></span><span class="brand-copy"><strong>CODEGUREX</strong><small>SECURITY FOR THE AI ERA</small></span></a><p>AI Security · Cybersecurity · Secure Infrastructure</p></div>
         <nav aria-label="Navegación"><a href="/codegurex-sentinel.html">Sentinel</a><a href="/seguridad-aplicaciones-ia.html">Seguridad de IA</a><a href="/seguridad-apis.html">Seguridad de APIs</a><a href="/seguridad-web.html">Seguridad web</a><a href="/hardening-infraestructura-nube.html">Infraestructura</a><a href="/nosotros.html">Nosotros</a><a href="/fundador.html">Fundador</a><a href="/contacto.html">Contacto</a><a href="/privacidad.html">Privacidad</a></nav>
         <div class="footer-contact"><a href="mailto:contacto@codegurex.com">contacto@codegurex.com</a><div class="social-block"><span class="social-label">CONECTA CON CODEGUREX</span><div class="social-links" aria-label="Redes sociales de CodeGurex"><a class="social-link" href="https://wa.me/593963223403" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><img src="/img/social/whatsapp.svg?v=2" alt="" /></a><a class="social-link" href="https://www.linkedin.com/in/codegurex/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="/img/social/linkedin.svg?v=2" alt="" /></a><a class="social-link" href="https://github.com/codegurex" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img src="/img/social/github.svg?v=2" alt="" /></a></div></div></div>
       </div>

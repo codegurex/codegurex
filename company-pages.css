@@ -24,3 +24,10 @@
 .contact-next{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:38px}.contact-next article{padding:24px;border:1px solid #dbd8e9;border-radius:16px;background:#fff}.contact-next span{color:#7066ad;font:800 9px var(--mono)}.contact-next h3{margin:26px 0 8px}.contact-next p{margin:0;color:#716b8b;font-size:.82rem}
 @media(max-width:1000px){.company-hero-grid,.company-split,.founder-company-profile,.contact-page-grid{grid-template-columns:1fr;gap:46px}.company-summary{max-width:660px}.founder-company-profile .founder-brand-panel{min-height:500px}.company-principles{grid-template-columns:repeat(2,1fr)}.training-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:650px){.company-hero{padding:130px 0 70px}.company-hero h1{font-size:clamp(2.8rem,15vw,4.4rem)}.company-summary dl div,.company-card-grid,.training-grid,.contact-next{grid-template-columns:1fr}.company-card-grid article{min-height:175px}.company-principles{grid-template-columns:1fr}.company-principles article{min-height:170px}.company-contact-form{padding:24px}.founder-company-profile .founder-brand-panel{min-height:460px}}
+
+/* Founder presentation for the new typographic logo */
+.founder-company-profile .founder-brand-panel{border-color:#d8d4e9;background:radial-gradient(circle at 50% 38%,rgba(49,92,245,.08),transparent 38%),#fff;color:#27187d;box-shadow:0 26px 70px rgba(39,24,125,.1)}
+.founder-company-profile .founder-brand-mark img{width:min(94%,640px);border-radius:0;box-shadow:none}
+.founder-company-profile .founder-brand-panel figcaption{border-color:#dfdced}
+.founder-company-profile .founder-brand-panel figcaption span{color:#716b92}
+.founder-company-profile .founder-brand-panel figcaption strong{color:#27187d}

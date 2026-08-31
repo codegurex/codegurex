@@ -38,6 +38,7 @@ for (const file of [
   "favicon-cg.ico",
   "favicon-512.png",
   "og.png",
+  "og-codegurex-security.png",
   "og-light.png",
   "og-milk-sea.png",
   "og-violet-reference.png",

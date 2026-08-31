@@ -296,6 +296,14 @@ body{background:#f7f7ff;color:#27187d}
 @media(max-width:950px){.service-hero-grid,.service-split{grid-template-columns:1fr;gap:46px}.service-summary{max-width:660px}.service-process{grid-template-columns:1fr 1fr}.related-services{grid-template-columns:1fr}.founder-brand-panel{min-height:520px}}
 @media(max-width:650px){.founder-brand-panel{min-height:480px;padding:28px;border-radius:18px}.founder-brand-mark img{width:min(72%,230px)}.service-hero{padding:130px 0 70px}.service-hero h1{font-size:clamp(2.8rem,15vw,4.4rem)}.service-summary dl div{grid-template-columns:1fr;gap:6px}.service-problem-grid,.service-deliverable-grid,.service-process{grid-template-columns:1fr}.service-process article{min-height:175px}}
 
+/* CodeGurex Security typographic wordmark */
+.brand-symbol{display:block;width:172px;height:52px;flex:0 0 172px;border:0;border-radius:0;background:transparent;overflow:visible}
+.brand-symbol img{display:block;width:100%;height:100%;border-radius:0;object-fit:contain;object-position:left center}
+.brand-copy{display:none}
+.site-header .brand-symbol img{filter:none}
+.site-footer .brand-symbol img{filter:brightness(0) invert(1)}
+@media(max-width:650px){.brand-symbol{width:146px;height:46px;flex-basis:146px}}
+
 /* Documented CodeGurex case study */
 .case-study-hero{padding:162px 0 96px;border-bottom:1px solid #d9d5eb;background:radial-gradient(circle at 83% 18%,rgba(39,24,125,.17),transparent 28%),linear-gradient(145deg,#f7f7ff 60%,#efedf9)}
 .case-study-hero-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(320px,.8fr);gap:72px;align-items:end}
